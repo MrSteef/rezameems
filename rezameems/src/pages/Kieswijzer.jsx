@@ -22,7 +22,24 @@ const Kieswijzer = () => {
     return options[randomIndex].id
   }
 
-  const quizLength = 15
+  const absurdityProgression = [
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 2, max: 2},
+    {min: 2, max: 3},
+    {min: 3, max: 4},
+    {min: 3, max: 5},
+    {min: 4, max: 6},
+    {min: 4, max: 7},
+    {min: 5, max: 8},
+    {min: 5, max: 9},
+    {min: 6, max: 10},
+    {min: 6, max: 11},
+    {min: 7, max: 12},
+    {min: 7, max: 13},
+    {min: 8, max: 14},
+  ]
+  const quizLength = absurdityProgression.length
   let firstQuestionId = getRandomQuestion(1, 1, [])
   const [progress, setProgress] = useState(1)
   const [question, setQuestion] = useState(questions[firstQuestionId]) // todo make this a random question
@@ -78,7 +95,9 @@ const Kieswijzer = () => {
     if (followUp !== undefined) {
       setNewQuestion(followUp.options.questionId)
     } else {
-      setNewQuestion(getRandomQuestion(1, 1, questionHistory))
+      let minAbsurdity = absurdityProgression[progress].min
+      let maxAbsurdity = absurdityProgression[progress].max
+      setNewQuestion(getRandomQuestion(minAbsurdity, maxAbsurdity, questionHistory))
     }
   }
 
