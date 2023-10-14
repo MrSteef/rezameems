@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  website:
+    build: /rezaMeems
+    container_name: website
+    ports: 
+      - "443:5173"
+    volumes:
+      - type: bind
+        source: ./rezaMeems
+        target: /app
+      - /app/node_modules
+    stdin_open: true
+    tty: true
