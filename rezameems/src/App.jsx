@@ -5,6 +5,7 @@ import Kieswijzer from "./pages/Kieswijzer"
 import Partijen from "./pages/Partijen"
 import NotFound from "./pages/NotFound"
 import QuestionEditor from "./pages/QuestionEditor"
+import Editor from "./components/QuestionEditor2/Editor"
 import Footer from "./components/Footer"
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
           <Route path="editor">
             <Route index element={<QuestionEditor/>} />
             <Route path=":questionId" element={<QuestionEditor/>} />
+          </Route>
+          <Route path="editor2">
+            <Route index element={<Editor/>} />
+            <Route path=":questionId" element={<Editor/>} />
           </Route>
         </Route>
         <Route path="*" element={<NotFound />} />

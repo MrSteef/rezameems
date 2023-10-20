@@ -18,6 +18,7 @@ const Question = ({question, setQuestion}) => {
 
   return <fieldset className='question'>
     <legend>Question</legend>
+    
     <label htmlFor="question-id">ID</label>
     <input type="number" name="question-id" value={question.id} disabled />
     <br />
@@ -25,7 +26,7 @@ const Question = ({question, setQuestion}) => {
     <input type="text" name="question-text" defaultValue={question.text} key={`question-text-${question.text}`} data-path='text' onBlur={e => updateQuestion(e)} />
     <br />
     <label htmlFor="question-is-followup">Is followup</label>
-    <input type="checkbox" name="question-is-followup" checked={question.isFollowup } defaultValue={true} key={`question-isFollowup-${question.isFollowup}`} data-path='isFollowup' onChange={e => updateQuestion(e)} />
+    <input type="checkbox" name="question-is-followup" defaultChecked={question.isFollowup } key={`question-isFollowup-${question.isFollowup}`} data-path='isFollowup' onChange={e => updateQuestion(e)} />
     <br />
     <label htmlFor="question-type">Type</label>
     <select name="question-type" defaultValue={question.type} key={`question-type-${question.type}`} data-path='type' onChange={e => updateQuestion(e)} >
