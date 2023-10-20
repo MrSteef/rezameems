@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #answer-container, #question-modifier-container {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <fieldset class="question">
+      <legend>Question</legend>
+
+      <label for="question-id">ID</label>
+      <input type="number" name="question-id" value="0">
+      <br>
+      <label for="question-is-followup">Is followup</label>
+      <input type="checkbox" name="question-is-followup">
+      <br>
+      <label for="question-text">text</label>
+      <input type="text" name="question-text">
+      <br>
+      <label for="question-type">Type</label>
+      <select name="question-type">
+        <option value="mc">Multiple Choice</option>
+      </select> 
+      <br>
+      <label for="question-absurdity">Absurdity</label>
+      <input type="number" name="question-absurdity">
+
+      <fieldset>
+        <legend>Question Modifiers</legend>
+
+        <input type="button" name="add-question-modifier" id="add-question-modifier" value="Add Question Modifier">
+
+        <div id="question-modifier-container"></div>
+        
+      </fieldset>
+
+      <fieldset>
+        <legend>Answers</legend>
+
+        <input type="button" name="add-answer" id="add-answer" value="Add Answer">
+
+        <div id="answer-container"></div>
+        
+      </fieldset>
+    </fieldset>
+  </form>
+
+
+  <template id="question-modifier-template">
+    <fieldset id="question-modifier-x">
+      <legend>Modifier 1</legend>
+
+      
+    </fieldset>
+  </template>
+
+  <template id="answer-template">
+    <fieldset id="answer-x">
+      <legend>Answer 1</legend>
+
+      <label for="answer-x-id">ID</label>
+      <input type="number" name="answer-x-id" value="0">
+      <br>
+      <label for="answer-x-text">Text</label>
+      <input type="text" name="answer-x-text">
+      
+      <fieldset>
+        <legend>Score Effects</legend>
+
+        <label for="answer-x-score-PvdAGL">PvdAGL </label>
+        <input type="number" name="answer-x-score-PvdAGL" value="0">
+        <br>
+        <label for="answer-x-score-BBB">BBB </label>
+        <input type="number" name="answer-x-score-BBB" value="0">
+        <br>
+        <label for="answer-x-score-CDA">CDA </label>
+        <input type="number" name="answer-x-score-CDA" value="0">
+        <br>
+        <label for="answer-x-score-D66">D66 </label>
+        <input type="number" name="answer-x-score-D66" value="0">
+        <br>
+        <label for="answer-x-score-FvD">FvD </label>
+        <input type="number" name="answer-x-score-FvD" value="0">
+        <br>
+        <label for="answer-x-score-Volt">Volt </label>
+        <input type="number" name="answer-x-score-Volt" value="0">
+        <br>
+        <label for="answer-x-score-PVV">PVV </label>
+        <input type="number" name="answer-x-score-PVV" value="0">
+        <br>
+        <label for="answer-x-score-NSC">NSC </label>
+        <input type="number" name="answer-x-score-NSC" value="0">
+        <br>
+        <label for="answer-x-score-VVD">VVD </label>
+        <input type="number" name="answer-x-score-VVD" value="0">
+        <br>
+        <label for="answer-x-score-PvdD">PvdD </label>
+        <input type="number" name="answer-x-score-PvdD" value="0">
+      </fieldset>
+
+      <fieldset>
+        <legend>Answer Modifiers</legend>
+
+        <select name="answer-x-add-modifier-type">
+          <option for="answer-x-add-modifier-type" value="followup">Followup Question</option>
+          <option for="answer-x-add-modifier-type" value="redirect">Redirect to a website</option>
+          <option for="answer-x-add-modifier-type" value="error">Show an error message</option>
+        </select>
+
+        <input type="button" name="answer-x-add-modifier" value="Add Answer Modifier">
+
+        <div id="answer-x-modifier-container"></div>
+      </fieldset>
+
+    </fieldset>
+  </template>
+
+  <template id="answer-modifier-followup-template">
+    <fieldset id="answer-x-modifier-y">
+      <legend>Followup Modifier</legend>
+    </fieldset>
+  </template>
+
+
+  <script>
+    let questionModifierTemplate = document.getElementById('question-modifier-template').content
+    let answerTemplate = document.getElementById('answer-template').content
+    let answerModifierFollowupTemplate = document.getElementById('answer-modifier-followup-template').content
+
+    document.getElementById('add-question-modifier').addEventListener('click', addQuestionModifier)
+    document.getElementById('add-answer').addEventListener('click', addAnswer)
+
+    function addQuestionModifier(e) {
+      let modifierType = 'test' // todo: determine type
+      let modifierId = 1 // todo: determine modifier id
+
+      let container = document.getElementById('question-modifier-container')
+      
+      switch(modifierType) {
+        case 'test':
+          let template = questionModifierTemplate.cloneNode(true)
+          template.getElementById('question-modifier-x').id = `question-modifier-${modifierId}`
+          container.appendChild(template)
+        break;
+      }
+    }
+
+    function addAnswer(e) {
+      let answerId = 0 // todo: determine answer id
+
+      let container = document.getElementById('answer-container')
+
+      let template = answerTemplate.cloneNode(true)
+
+      template.getElementById(`answer-x`).id = `answer-${answerId}`
+
+      let inputs = template.querySelectorAll('input')
+      for (let input of inputs) {input.name = input.name.replace('-x', `-${answerId}`)}
+      let labels = template.querySelectorAll('label')
+      for (let label of labels) {label.setAttribute('for', label.getAttribute('for').replace('-x', `-${answerId}`))}
+      let selects = template.querySelectorAll('select')
+      for (let select of selects) {select.name = select.name.replace('-x', `-${answerId}`)}
+      let options = template.querySelectorAll('option')
+      for (let option of options) {option.setAttribute('for', option.getAttribute('for').replace('-x', `-${answerId}`))}
+      let divs = template.querySelectorAll('div')
+      for (let div of divs) {div.id = div.id.replace('-x', `-${answerId}`)}
+      
+      template.querySelector(`input[name='answer-${answerId}-add-modifier']`).addEventListener('click', addAnswerModifier)
+
+      container.appendChild(template)
+    }
+
+    function addAnswerModifier(e) {
+      let modifierType = 'followup' // todo: determine type
+      let answerId = 0; // todo: determine answer id
+      let modifierId = 1 // todo: determine modifier id
+
+      let container = document.getElementById(`answer-${answerId}-modifier-container`)
+      
+      switch(modifierType) {
+        case 'followup':
+          let template = answerModifierFollowupTemplate.cloneNode(true)
+          template.getElementById('answer-x-modifier-y').id = `answer-${answerId}-modifier-${modifierId}`
+          container.appendChild(template)
+        break;
+      }
+    }
+  </script>
+</body>
+</html>

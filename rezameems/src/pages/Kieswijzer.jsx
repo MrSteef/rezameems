@@ -25,19 +25,19 @@ const Kieswijzer = () => {
   const absurdityProgression = [
     {min: 1, max: 1},
     {min: 1, max: 1},
-    {min: 2, max: 2},
-    {min: 2, max: 3},
-    {min: 3, max: 4},
-    {min: 3, max: 5},
-    {min: 4, max: 6},
-    {min: 4, max: 7},
-    {min: 5, max: 8},
-    {min: 5, max: 9},
-    {min: 6, max: 10},
-    {min: 6, max: 11},
-    {min: 7, max: 12},
-    {min: 7, max: 13},
-    {min: 8, max: 14},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
+    {min: 1, max: 1},
   ]
   const quizLength = absurdityProgression.length
   let firstQuestionId = getRandomQuestion(1, 1, [])
@@ -88,8 +88,13 @@ const Kieswijzer = () => {
     let scoreChanges = selectedAnswer.effects
     updateScores(scoreChanges)
 
-    // go to the next question
+    // check if the quiz has been finished
+    // todo implement
+    if (progress >= quizLength) {
+      console.log('finished')
+    }
 
+    // go to the next question
     // check for followup modifier
     let followUp = selectedAnswer.modifiers.find(modifier => modifier.type === 'followUp')
     if (followUp !== undefined) {
@@ -113,10 +118,10 @@ const Kieswijzer = () => {
 
 
 return <>
-  <div>
+  <main className="colspan12">
     <p>Vraag {progress} van de {quizLength}</p>
     <Question question={question} chooseAnswer={chooseAnswer}/>
-  </div>
+  </main>
 </>
 
 }

@@ -4,6 +4,8 @@ import Home from "./pages/Home"
 import Kieswijzer from "./pages/Kieswijzer"
 import Partijen from "./pages/Partijen"
 import NotFound from "./pages/NotFound"
+import QuestionEditor from "./pages/QuestionEditor"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -14,9 +16,16 @@ function App() {
         <Route path="/partijen">
           <Route index element={<Partijen />} />
         </Route>
-        <Route path="/kieswijzer" element={<Kieswijzer />} />
+        <Route path="/kieswijzer">
+          <Route index element={<Kieswijzer />} />
+          <Route path="editor">
+            <Route index element={<QuestionEditor/>} />
+            <Route path=":questionId" element={<QuestionEditor/>} />
+          </Route>
+        </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   )
 }
