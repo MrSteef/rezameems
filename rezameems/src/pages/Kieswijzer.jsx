@@ -2,7 +2,8 @@
 // this will also keep track of the scores for each party
 
 import { useState } from 'react'
-import questions from '../../database/questionLong'
+// import questions from '../../database/questionLong'
+import questions from '../../database/questionList.json'
 import Question from '../components/Question'
 
 
@@ -96,9 +97,9 @@ const Kieswijzer = () => {
 
     // go to the next question
     // check for followup modifier
-    let followUp = selectedAnswer.modifiers.find(modifier => modifier.type === 'followUp')
+    let followUp = selectedAnswer.modifiers.find(modifier => modifier.type === 'followup')
     if (followUp !== undefined) {
-      setNewQuestion(followUp.options.questionId)
+      setNewQuestion(followUp.option) // this breaks
     } else {
       let minAbsurdity = absurdityProgression[progress].min
       let maxAbsurdity = absurdityProgression[progress].max
