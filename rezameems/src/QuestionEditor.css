@@ -12,3 +12,7 @@ fieldset.question-modifier-container, fieldset.answer-container {
   display: flex;
   flex-direction: row;
 }
+
+input[name="question-text"] {
+  width: 500px
+}

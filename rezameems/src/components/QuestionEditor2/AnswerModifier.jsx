@@ -5,7 +5,7 @@ const AnswerModifier = ({answerId, modifier, setModifier, deleteModifier}) => {
   let modifierSettings = settings.answerModifierTypes.find(type => type.setting == modifier.type)
 
   const setOption = (option) => {
-    modifier.option = option
+    modifier.option = (settings.answerModifierTypes.find(setting => setting.setting === modifier.type).optionType === 'number') ? parseInt(option) : option
     setModifier(modifier.type, modifier)
   }
 

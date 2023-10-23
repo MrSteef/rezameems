@@ -5,6 +5,7 @@ import { useState } from 'react'
 // import questions from '../../database/questionLong'
 import questions from '../../database/questionList.json'
 import Question from '../components/Question'
+import { useNavigate } from 'react-router-dom'
 
 
 
@@ -24,21 +25,21 @@ const Kieswijzer = () => {
   }
 
   const absurdityProgression = [
-    {min: 0, max: 0},
     {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
-    {min: 1, max: 1},
+    {min: 1, max: 2},
+    {min: 1, max: 3},
+    {min: 1, max: 4},
+    {min: 1, max: 5},
+    {min: 1, max: 6},
+    {min: 1, max: 7},
+    {min: 1, max: 8},
+    {min: 1, max: 9},
+    {min: 1, max: 10},
+    {min: 1, max: 11},
+    {min: 1, max: 12},
+    {min: 1, max: 13},
+    {min: 1, max: 14},
+    {min: 1, max: 15},
   ]
   const quizLength = absurdityProgression.length
   let firstQuestionId = getRandomQuestion(absurdityProgression[0], [])
@@ -46,6 +47,8 @@ const Kieswijzer = () => {
   const [question, setQuestion] = useState(questions[firstQuestionId]) // todo make this a random question
   const [scores, setScores] = useState([])
   const [questionHistory, setQuestionHistory] = useState([firstQuestionId])
+  const [answerHistory, setAnswerHistory] = useState([])
+  const navigate = useNavigate()
 
   const updateScores = (scoreChanges) => {
     let newScores = scores
@@ -57,6 +60,25 @@ const Kieswijzer = () => {
       }
     })
     setScores(newScores)
+  }
+
+  const finish = () => {
+    // save question history to localStorage
+    let localHistory = JSON.parse(localStorage.getItem('questionHistory'))
+    if (localHistory === null) {localHistory = []}
+    questionHistory.forEach(q => {if(!localHistory.includes(q)) {localHistory.push(q)}})
+    localStorage.setItem('questionHistory', JSON.stringify(localHistory))
+
+
+    let result = {t: Date.now(), q: questionHistory, a: answerHistory, s: scores}
+    let encoded = btoa(JSON.stringify(result))
+    // save results
+    navigate(`/kieswijzer/resultaat?r=${encoded}`)
+  }
+
+  if (answerHistory.length >= quizLength) {
+    finish()
+    return
   }
 
   const chooseAnswer = (answerId) => {
@@ -72,7 +94,8 @@ const Kieswijzer = () => {
     // check for finish modifier
     let finishModifier = selectedAnswer.modifiers.find(modifier => modifier.type === 'finish')
     if (finishModifier !== undefined) {
-      // TODO: go to results page
+      navigate(`/`)
+      return
     }
 
     // check for error modifier
@@ -83,15 +106,12 @@ const Kieswijzer = () => {
 
     // apply score changes
     let scoreChanges = selectedAnswer.effects
+    let newAnswerHistory = structuredClone(answerHistory)
+    newAnswerHistory.push(answerId)
+    setAnswerHistory(newAnswerHistory)
     updateScores(scoreChanges)
 
-    // check if the quiz has been finished
-    // todo implement
-    if (progress >= quizLength) {
-      console.log('finished')
-      // TODO: go to results page
-    }
-
+    if (progress < quizLength) {
     // go to the next question
     // check for followup modifier
     let followupModifier = selectedAnswer.modifiers.find(modifier => modifier.type === 'followup')
@@ -99,6 +119,7 @@ const Kieswijzer = () => {
       setNewQuestion(followupModifier.option)
     } else {
       setNewQuestion(getRandomQuestion(absurdityProgression[progress], questionHistory))
+    }
     }
   }
 

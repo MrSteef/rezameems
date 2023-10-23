@@ -43,7 +43,7 @@ const Sidebar = ({questionList, setQuestionList}) => {
       <ul id='questionList'>
         {questionList.map(question => {
           return <li key={question.id}>
-            <NavLink to={`/kieswijzer/editor2/${question.id}`}>{question.text == '' ? 'Blank question' : question.text}</NavLink>
+            <NavLink to={`/kieswijzer/editor/${question.id}`}>{question.text == '' ? 'Blank question' : question.text}</NavLink>
           </li>
         })}
       </ul>

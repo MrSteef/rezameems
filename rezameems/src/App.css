@@ -6,7 +6,9 @@
 
   display: grid;
   grid-template-columns: repeat(12, calc(100dvw/12));
-  grid-template-rows: 3rem auto 3rem
+  grid-template-rows: 3rem 1fr auto;
+
+  min-height: 100svh;
 }
 
 nav#header {
@@ -37,7 +39,7 @@ a.active {
 main, aside {
   grid-row-start: 2;
   grid-row-end: 2;
-  height: calc(100dvh - 6rem)
+  padding: 1em;
 }
 
 aside {
@@ -69,7 +71,8 @@ footer {
   grid-column-end: 13;
   grid-row-start: 3;
   grid-row-end: 3;
-  border-top: 1px solid white
+  border-top: 1px solid white;
+  padding-inline: 1em;
 }
 
 #questionList li a {
@@ -79,4 +82,55 @@ footer {
   overflow: hidden;
   width: 100%;
   text-align: left;
+}
+
+.winningPoster {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+#replay, 
+#stats {
+  margin: 1rem;
+  max-width: 80vw;
+  text-align: left;
+}
+
+#replay h3,
+#stats h3 {
+  margin-inline-start: 1em;
+  margin-bottom: 0;
+}
+#replay p,
+#stats p {
+  margin-top: 0;
+  margin-inline-start: 2.5em;
+}
+
+.partij-display {
+  display: flex;
+  margin: 1rem;
+  gap: 2rem;
+}
+.partij-display:nth-child(2n) {
+  flex-direction: row;
+  text-align: left;
+}
+.partij-display:nth-child(2n+1) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.partij-display div {
+  max-width: 50vw;
+  min-width: 20vw;
+}
+.partij-display img {
+  max-width: 50vw;
+  max-height: 50vh;
+}
+
+#party-list {
+  max-width: 1200px;
+  overflow-y: hidden;
+  justify-self: center;
 }
