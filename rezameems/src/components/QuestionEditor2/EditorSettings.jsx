@@ -37,6 +37,12 @@ const settings = {
       optionName: 'Error message',
       optionType: 'text'
     },
+    {
+      setting: 'finish',
+      display: 'Finish kieswijzer',
+      optionName: 'Ignore scores',
+      optionType: 'checkbox'
+    }
   ],
   questionTypes: [
     {

@@ -8,7 +8,7 @@ const Answer = ({answer, setAnswer, deleteAnswer}) => {
     setAnswer(answer)
   }
   const setScoreEffect = (party, score) => {
-    answer.effects.find(effect => effect.party === party).score = score
+    answer.effects.find(effect => effect.party === party).score = parseInt(score)
     setAnswer(answer.id, answer)
   }
   const addScoreEffect = (e) => {
