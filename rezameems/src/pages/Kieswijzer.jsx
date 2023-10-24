@@ -2,7 +2,6 @@
 // this will also keep track of the scores for each party
 
 import { useState } from 'react'
-// import questions from '../../database/questionLong'
 import questions from '../../database/questionList.json'
 import Question from '../components/Question'
 import { useNavigate } from 'react-router-dom'
@@ -135,7 +134,7 @@ const Kieswijzer = () => {
 
 
 return <>
-  <main className="colspan12">
+  <main className="colspan12" id="kieswijzer">
     <p>Vraag {progress} van de {quizLength}</p>
     <Question question={question} chooseAnswer={chooseAnswer}/>
   </main>
