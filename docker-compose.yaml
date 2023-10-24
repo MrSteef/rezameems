@@ -4,7 +4,7 @@ services:
     build: /rezaMeems
     container_name: website
     ports: 
-      - "80:5173"
+      - "80:8080"
     volumes:
       - type: bind
         source: ./rezaMeems
