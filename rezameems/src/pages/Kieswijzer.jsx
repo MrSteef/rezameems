@@ -43,6 +43,8 @@ const Kieswijzer = () => {
   let { firstQuestionId } = useParams()
   if (firstQuestionId === undefined) {
     firstQuestionId = getRandomQuestion(absurdityProgression[0], []);
+  } else {
+    firstQuestionId = parseInt(firstQuestionId)
   }
 
   const quizLength = absurdityProgression.length

@@ -50,8 +50,8 @@ function Partijen() {
       {
         parties.map(party => {
           return (
-            <div className='partij-display'>
-              <img src={`../../public/ali posters/${party.name}.png`}></img>
+            <div key={party.name} className='partij-display'>
+              <img src={`../../public/ali posters/${party.name}.webp`}></img>
               <div>
                 <h2>{party.name}</h2>
                 <p>{party.description}</p>
