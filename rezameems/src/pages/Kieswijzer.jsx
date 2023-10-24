@@ -4,7 +4,7 @@
 import { useState } from 'react'
 import questions from '../../database/questionList.json'
 import Question from '../components/Question'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 
 
@@ -40,8 +40,12 @@ const Kieswijzer = () => {
     {min: 1, max: 14},
     {min: 1, max: 15},
   ]
+  let { firstQuestionId } = useParams()
+  if (firstQuestionId === undefined) {
+    firstQuestionId = getRandomQuestion(absurdityProgression[0], []);
+  }
+
   const quizLength = absurdityProgression.length
-  let firstQuestionId = getRandomQuestion(absurdityProgression[0], [])
   const [progress, setProgress] = useState(1)
   const [question, setQuestion] = useState(questions[firstQuestionId]) // todo make this a random question
   const [scores, setScores] = useState([])

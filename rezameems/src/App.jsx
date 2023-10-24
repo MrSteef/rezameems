@@ -4,7 +4,6 @@ import Home from "./pages/Home"
 import Kieswijzer from "./pages/Kieswijzer"
 import Partijen from "./pages/Partijen"
 import NotFound from "./pages/NotFound"
-import QuestionEditor from "./pages/QuestionEditor"
 import Editor from "./components/QuestionEditor2/Editor"
 import Footer from "./components/Footer"
 import Result from "./pages/Result"
@@ -20,10 +19,6 @@ function App() {
         </Route>
         <Route path="/kieswijzer">
           <Route index element={<Kieswijzer />} />
-          {/* <Route path="editor">
-            <Route index element={<QuestionEditor/>} />
-            <Route path=":questionId" element={<QuestionEditor/>} />
-          </Route> */}
           <Route path="editor">
             <Route index element={<Editor/>} />
             <Route path=":questionId" element={<Editor/>} />
@@ -31,6 +26,7 @@ function App() {
           <Route path="resultaat">
             <Route index element={<Result/>} />
           </Route>
+          <Route path=":firstQuestionId" element={<Kieswijzer/>} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
