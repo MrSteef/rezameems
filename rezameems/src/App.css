@@ -22,6 +22,7 @@ nav#header ul {
   display: flex;
   gap: 1em;
   flex-direction: row;
+  align-items: center;
 }
 
 nav#header ul li {
@@ -184,4 +185,20 @@ input[type="button"]:hover {
 #header a {
   font-size: 1em;
   color: black;
+}
+
+@media (width < 600px) {
+  #home h1 {
+    font-size: 5rem;
+  }
+
+  input[type="button"], #home a {
+    padding: 0.5em;
+    font-size:medium;
+    min-width: 10ch;
+  }
+
+  #header li {
+    font-size: 1.5em;
+  }
 }
