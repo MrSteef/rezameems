@@ -2,7 +2,7 @@
 // this will also keep track of the scores for each party
 
 import { useState } from 'react'
-import questions from '../../database/questionList.json'
+import questions from '../questionList.json'
 import Question from '../components/Question'
 import { useNavigate, useParams } from 'react-router-dom'
 

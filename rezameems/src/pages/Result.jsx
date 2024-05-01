@@ -1,4 +1,4 @@
-import questions from '../../database/questionList.json'
+import questions from '../questionList.json'
 
 const Result = () => {
   let params = new URLSearchParams(window.location.search)
