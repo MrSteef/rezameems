@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rezameems/static/css/main.363ec785.css",
+    "main.js": "/rezameems/static/js/main.fbbd7d15.js",
+    "index.html": "/rezameems/index.html",
+    "main.363ec785.css.map": "/rezameems/static/css/main.363ec785.css.map",
+    "main.fbbd7d15.js.map": "/rezameems/static/js/main.fbbd7d15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.363ec785.css",
+    "static/js/main.fbbd7d15.js"
+  ]
+}
