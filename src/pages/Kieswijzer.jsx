@@ -78,7 +78,7 @@ const Kieswijzer = () => {
     let result = {t: Date.now(), q: questionHistory, a: answerHistory, s: scores}
     let encoded = btoa(JSON.stringify(result))
     // save results
-    navigate(`/kieswijzer/resultaat?r=${encoded}`)
+    navigate(`/kieswijzer/resultaat/${encoded}`)
   }
 
   if (answerHistory.length >= quizLength) {

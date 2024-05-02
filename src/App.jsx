@@ -25,6 +25,7 @@ function App() {
           </Route>
           <Route path="resultaat">
             <Route index element={<Result/>} />
+            <Route path=":result" element={<Result/>} />
           </Route>
           <Route path=":firstQuestionId" element={<Kieswijzer/>} />
         </Route>

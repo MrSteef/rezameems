@@ -1,8 +1,10 @@
+import { useParams } from 'react-router-dom'
 import questions from '../questionList.json'
 
 const Result = () => {
-  let params = new URLSearchParams(window.location.search)
-  let data = JSON.parse(atob(params.get('r')))
+  // let params = new URLSearchParams(window.location.search)
+  // let data = JSON.parse(atob(params.get('r')))
+  let { data } = useParams()
   let winner = data.s.find(s => s.score === Math.max(...data.s.map(s=>s.score))).party
   let replay = []
   for(let i = 0; i < data.a.length; i ++) {
