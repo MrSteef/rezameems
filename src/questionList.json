@@ -1,1 +1,4424 @@
-[{"id":0,"isFollowup":false,"text":"Hoe vaak heeft u het afgelopen jaar geprotesteerd?","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"0 keer","modifiers":[],"effects":[]},{"id":1,"text":"1 tot 3 keer","modifiers":[],"effects":[{"party":"PvdAGL","score":3},{"party":"BBB","score":2},{"party":"FvD","score":1}]},{"id":2,"text":"4 tot 10 keer","modifiers":[],"effects":[{"party":"BBB","score":5},{"party":"PvdAGL","score":4},{"party":"CDA","score":1},{"party":"FvD","score":3}]},{"id":3,"text":"11 keer of vaker","modifiers":[{"type":"redirect","option":"https://www.regelhulp.nl/onderwerpen/psychische-klachten/hulp-en-advies"}],"effects":[{"party":"PvdAGL","score":5},{"party":"BBB","score":3}]}]},{"id":1,"isFollowup":false,"text":"Gaat u stemmen?","type":"mc","absurdity":1,"modifiers":[],"answers":[{"id":0,"text":"Ja","modifiers":[],"effects":[]},{"id":1,"text":"Nee","modifiers":[{"type":"finish","option":""}],"effects":[]}]},{"id":2,"isFollowup":false,"text":"Houdt u van dieren?","type":"mc","absurdity":"1","modifiers":[],"answers":[{"id":0,"text":"Ja","modifiers":[{"type":"followup","option":3}],"effects":[{"party":"PvdAGL","score":0},{"party":"PvdD","score":10},{"party":"BBB","score":5},{"party":"PVV","score":3}]},{"id":1,"text":"Nee","modifiers":[],"effects":[{"party":"PvdAGL","score":0},{"party":"PvdD","score":-10},{"party":"BBB","score":3},{"party":"PVV","score":-1}]}]},{"id":3,"isFollowup":true,"text":"Als huisdier of op uw bord?","type":"mc","absurdity":1,"modifiers":[],"answers":[{"id":0,"text":"Als huisdier","modifiers":[],"effects":[{"party":"PvdD","score":10}]},{"id":1,"text":"Op mijn bord","modifiers":[],"effects":[{"party":"PvdD","score":-20}]}]},{"id":4,"isFollowup":false,"text":"Hoe hard wilt u kunnen rijden op de snelweg?","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"50 km/u","modifiers":[],"effects":[{"party":"PvdAGL","score":1},{"party":"PvdD","score":1}]},{"id":1,"text":"80 km/u","modifiers":[],"effects":[{"party":"PvdAGL","score":2},{"party":"PvdD","score":2}]},{"id":2,"text":"100 km/u","modifiers":[],"effects":[{"party":"VVD","score":7},{"party":"PVV","score":3}]},{"id":3,"text":"120 km/u","modifiers":[],"effects":[{"party":"VVD","score":10},{"party":"PvdAGL","score":-5},{"party":"PVV","score":4}]},{"id":4,"text":"Geen snelheidslimiet","modifiers":[],"effects":[]}]},{"id":5,"isFollowup":false,"text":"Gelooft u in de maanlanding?","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Ja","modifiers":[],"effects":[{"party":"FvD","score":-15}]},{"id":1,"text":"Nee","modifiers":[],"effects":[{"party":"FvD","score":10}]}]},{"id":6,"isFollowup":false,"text":"Houdt u van onterecht kinderen uit huis plaatsen?","type":"mc","absurdity":"11","modifiers":[],"answers":[{"id":0,"text":"Ja","modifiers":[],"effects":[{"party":"VVD","score":6},{"party":"CDA","score":1},{"party":"D66","score":1}]},{"id":1,"text":"Nee","modifiers":[],"effects":[{"party":"VVD","score":-2}]}]},{"id":7,"isFollowup":false,"text":"Vindt u dat we België moeten annexeren?","type":"mc","absurdity":"9","modifiers":[],"answers":[{"id":0,"text":"Ja","modifiers":[],"effects":[{"party":"FvD","score":5},{"party":"Volt","score":5}]},{"id":1,"text":"Nee","modifiers":[],"effects":[]}]},{"id":8,"isFollowup":false,"text":"Het moet normaal kunnen zijn om een cobra door de brievenbus van uw negentig jarige buurvrouw te gooien.","type":"mc","absurdity":"10","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"FvD","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"Volt","score":3},{"party":"PvdAGL","score":3}]}]},{"id":9,"isFollowup":false,"text":"Wat vindt u van roken?","type":"mc","absurdity":"2","modifiers":[],"answers":[{"id":0,"text":"Afschaffen die bende!","modifiers":[],"effects":[{"party":"PvdAGL","score":2}]},{"id":1,"text":"Niks mis mee","modifiers":[{"type":"redirect","option":"https://www.kwf.nl/kanker-voorkomen/stoppen-met-roken/gevolgen-van-roken"}],"effects":[{"party":"BBB","score":10},{"party":"PVV","score":3},{"party":"VVD","score":3}]}]},{"id":10,"isFollowup":false,"text":"Er moet extra belasting komen op vegetarische erwtensoep","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":3},{"party":"PvdD","score":1}]}]},{"id":11,"isFollowup":false,"text":"Ik ben het eens met Reza Meems","type":"mc","absurdity":"1","modifiers":[],"answers":[{"id":0,"text":"Ja","modifiers":[],"effects":[]},{"id":1,"text":"Eens","modifiers":[],"effects":[]},{"id":2,"text":"Klopt","modifiers":[],"effects":[]}]},{"id":12,"isFollowup":false,"text":"De Nederlandse marine moet weer met VOC slagschepen de Noordzee gaan beveiligen.","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"FvD","score":5},{"party":"PVV","score":3},{"party":"VVD","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[]}]},{"id":13,"isFollowup":false,"text":"We moeten wiet gaan verbouwen in leegstaande kantoor panden.","type":"mc","absurdity":"8","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":2},{"party":"CDA","score":2},{"party":"PvdD","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"VVD","score":2}]}]},{"id":14,"isFollowup":false,"text":"Abortus bij panda's moet toegestaan worden.","type":"mc","absurdity":"8","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":3},{"party":"PvdD","score":8}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdD","score":-4}]}]},{"id":15,"isFollowup":false,"text":"Friet of patat?","type":"mc","absurdity":"2","modifiers":[],"answers":[{"id":0,"text":"Friet","modifiers":[],"effects":[{"party":"PVV","score":1}]},{"id":1,"text":"Patat","modifiers":[],"effects":[{"party":"BBB","score":1}]}]},{"id":16,"isFollowup":false,"text":"Er moet meer worden geinvesteerd in het opwekken van stroom door middel van hamsters","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdD","score":3}]}]},{"id":17,"isFollowup":false,"text":"De belastingdienst moet worden overgelaten aan de vrije markt.","type":"mc","absurdity":"7","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":5},{"party":"FvD","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":1}]}]},{"id":18,"isFollowup":false,"text":"'Even aan m'n moeder vragen' van Bloem moet het volkslied worden.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[]},{"id":1,"text":"Oneens","modifiers":[],"effects":[]}]},{"id":19,"isFollowup":false,"text":"Een snackmix met bamihapjes aanbieden moet illegaal worden.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdD","score":4}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdD","score":-2}]}]},{"id":20,"isFollowup":false,"text":"Er moet een tweede A12 worden aangelegd voor klimaatdemonstranten.","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":9},{"party":"BBB","score":6},{"party":"PVV","score":6},{"party":"NSC","score":1},{"party":"FvD","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":5},{"party":"Volt","score":4},{"party":"PvdD","score":3},{"party":"CDA","score":1},{"party":"D66","score":1}]}]},{"id":21,"isFollowup":false,"text":"Nederlandse klimaatdoelen moeten worden uitgesteld tot 2863.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"FvD","score":15}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":15},{"party":"PvdD","score":15},{"party":"CDA","score":3},{"party":"BBB","score":-3}]}]},{"id":22,"isFollowup":false,"text":"Plofkippen moeten zich in het donorregister registreren voordat ze tot kipnuggets mogen worden gemaakt.","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdD","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"BBB","score":5}]}]},{"id":23,"isFollowup":false,"text":"Je tas op de stoel naast je zetten in de trein moet strafbaar worden.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"FvD","score":2},{"party":"VVD","score":3}]}]},{"id":24,"isFollowup":false,"text":"Voorgedraaide jonko's moeten worden vergoed vanuit het basispakket.","type":"mc","absurdity":"8","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":6},{"party":"PvdAGL","score":4}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"VVD","score":3}]}]},{"id":25,"isFollowup":false,"text":"Om discriminatie op basis van kleur tegen te gaan moeten stoplichten alleen nog maar groen licht geven.","type":"mc","absurdity":"8","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":7},{"party":"PvdAGL","score":-1},{"party":"PVV","score":2},{"party":"FvD","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":3},{"party":"BBB","score":-1},{"party":"Volt","score":3}]}]},{"id":26,"isFollowup":false,"text":"Om de wachttijden bij het CBR te verminderen, kunnen de praktijkexamens voortaan ook via GTA5 worden afgenomen.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":4},{"party":"CDA","score":4}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[]}]},{"id":27,"isFollowup":false,"text":"Koffieshop mogen alleen nog maar drugs verkopen met koffiesmaak, met een uitzondering op vapes.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":2},{"party":"VVD","score":2}]}]},{"id":28,"isFollowup":false,"text":"Afval moeten worden gescheiden op basis van kleur.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":-2}]}]},{"id":29,"isFollowup":false,"text":"Paardrijden moet worden afgeschaft als officiële sport.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":3},{"party":"FvD","score":3},{"party":"PvdD","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdD","score":-3}]}]},{"id":30,"isFollowup":false,"text":"Om kansgelijkheid te stimuleren wordt het middelbare schooladvies bepaald door een lotterijsysteem.","type":"mc","absurdity":"7","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"CDA","score":2},{"party":"D66","score":2}]}]},{"id":31,"isFollowup":false,"text":"Pepernoten mogen pas na 1 oktober in de winkels liggen, met uitzondering van chocolade pepernoten.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PVV","score":1}]}]},{"id":32,"isFollowup":false,"text":"Om de verspreiding van vogelgriep te limiteren moet alle kippen verplicht mondkapjes dragen.","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":2},{"party":"BBB","score":2},{"party":"PvdD","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"BBB","score":2},{"party":"FvD","score":9}]}]},{"id":33,"isFollowup":false,"text":"Wat vind u van de plannen voor de Thoriummijn in het IJsselmeer.","type":"mc","absurdity":1,"modifiers":[],"answers":[{"id":0,"text":"Goed","modifiers":[],"effects":[{"party":"PvdAGL","score":-2},{"party":"BBB","score":3},{"party":"CDA","score":1},{"party":"D66","score":1},{"party":"NSC","score":2}]},{"id":1,"text":"Slecht","modifiers":[],"effects":[{"party":"PvdAGL","score":15}]}]},{"id":34,"isFollowup":false,"text":"Er moet meer worden geïnvesteerd in het onderwijzen van de koning.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":10}]}]},{"id":35,"isFollowup":false,"text":"Drenthe moet zich afscheiden van Nederland, we gaan terug naar 11 provincies.","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"Volt","score":-5}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"Volt","score":5},{"party":"BBB","score":2}]}]},{"id":36,"isFollowup":false,"text":"We moeten de gehele publieke omroep uitprocederen.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":2},{"party":"FvD","score":15}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"FvD","score":-15}]}]},{"id":37,"isFollowup":false,"text":"Internet cookies moeten standaard worden afgewezen.","type":"mc","absurdity":"2","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"Volt","score":15}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"Volt","score":-9}]}]},{"id":38,"isFollowup":false,"text":"We moeten elke tiener in de randstad een mes geven om zichzelf te kunnen verdedigen tegen ander tuig.","type":"mc","absurdity":"8","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":6}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PVV","score":6},{"party":"VVD","score":3}]}]},{"id":39,"isFollowup":false,"text":"De voertaal op het hoger onderwijs moet latijn worden.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"FvD","score":15},{"party":"NSC","score":8}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"NSC","score":8},{"party":"PvdAGL","score":2}]}]},{"id":40,"isFollowup":false,"text":"Studenten die een universitaire opleiding volgen hebben recht op eerste klas studenten OV.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"FvD","score":6},{"party":"PvdAGL","score":6},{"party":"Volt","score":6},{"party":"CDA","score":3},{"party":"PvdD","score":6}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":6}]}]},{"id":41,"isFollowup":false,"text":"Nederland moet zijn grenzen dichthouden voor Duitse strandbezoekers.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":5},{"party":"VVD","score":4}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":2}]}]},{"id":42,"isFollowup":false,"text":"Nederland moet het loon voor iedereen zo minimum mogelijk maken.","type":"mc","absurdity":1,"modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":15},{"party":"PvdAGL","score":-7}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":15}]}]},{"id":43,"isFollowup":false,"text":" Mensen die zeggen dat ze groen zijn moeten verplicht staande worden gehouden op Schiphol om hun CO2 te compenseren.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":5},{"party":"VVD","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":-2}]}]},{"id":44,"isFollowup":false,"text":"Als probleem voor het woningtekort moet de overheid twee mega wolkenkrabbers bouwen in Nieuw Amsterdam.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"FvD","score":3},{"party":"VVD","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"VVD","score":2}]}]},{"id":45,"isFollowup":false,"text":"Er moet extra worden geïnvesteerd in de ontwikkeling van biologisch afbreekbaar asbest/asfalt.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":8},{"party":"VVD","score":5}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[]}]},{"id":46,"isFollowup":false,"text":"Elke inwoner van Borssele moet een kernreactor in zijn tuin.","type":"mc","absurdity":"8","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":-4}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":15}]}]},{"id":47,"isFollowup":false,"text":"Studentenverenigingen moeten verplicht hun ontgroeningen in Qatar houden.","type":"mc","absurdity":"7","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":6}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[]}]},{"id":48,"isFollowup":false,"text":"DUO moet een rente van 6.9% invoeren op de studieschuld.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":15},{"party":"CDA","score":-1},{"party":"D66","score":6},{"party":"BBB","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"CDA","score":3},{"party":"Volt","score":1},{"party":"NSC","score":6}]}]},{"id":49,"isFollowup":false,"text":"Baseert u uw mening in volledigheid op de mening van Arjen Lubach?","type":"mc","absurdity":"2","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":15},{"party":"Volt","score":9},{"party":"CDA","score":-2},{"party":"VVD","score":-15},{"party":"NSC","score":2},{"party":"PVV","score":-5},{"party":"PvdD","score":7},{"party":"D66","score":2},{"party":"BBB","score":-4},{"party":"FvD","score":-15}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":-2},{"party":"BBB","score":2},{"party":"CDA","score":1},{"party":"D66","score":2},{"party":"FvD","score":7},{"party":"Volt","score":-2},{"party":"PVV","score":5},{"party":"NSC","score":3},{"party":"VVD","score":5},{"party":"PvdD","score":1}]}]},{"id":50,"isFollowup":false,"text":"Waarom wordt het woord van de heer J. Tak gecensureerd?","type":"mc","absurdity":"7","modifiers":[],"answers":[{"id":0,"text":"Wie de fak is J.Tak?","modifiers":[],"effects":[]},{"id":1,"text":"Omdat je slechte meningen moet kunnen onderdrukken","modifiers":[],"effects":[{"party":"FvD","score":10},{"party":"VVD","score":2}]}]},{"id":51,"isFollowup":false,"text":"De afsluitdijk moet worden afgesloten.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":8},{"party":"VVD","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"VVD","score":2}]}]},{"id":52,"isFollowup":false,"text":"Er moet een muur worden gebouwd om ons te beschermingen tegen Antarcticaanse vluchtelingen.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":5}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"Volt","score":1},{"party":"PVV","score":-3}]}]},{"id":53,"isFollowup":false,"text":"Alle immigranten moeten op een bootje naar Texel worden gestuurd voor een groepsreis.","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PVV","score":7}]}]},{"id":54,"isFollowup":false,"text":"Nederlandse militairen moeten in het diepste geheim gaan trainen in de steegjes van Raalte Noord.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":3},{"party":"FvD","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[]}]},{"id":55,"isFollowup":false,"text":"De Nederlandse overheid moet aandelen kopen in de albums van Snelle met gelden uit het cultuur fonds.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":3},{"party":"CDA","score":4},{"party":"D66","score":4},{"party":"NSC","score":9},{"party":"BBB","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"VVD","score":2}]}]},{"id":56,"isFollowup":false,"text":"Mensen die worden betrapt op zwartrijden kunnen boetes ontlopen door Per Spoor van Guus Meeuwis te zingen in de trein.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[]}]},{"id":57,"isFollowup":false,"text":"Mensen moeten belasting gaan betalen voor beenruimte in het vliegtuig.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":5},{"party":"BBB","score":1},{"party":"D66","score":1},{"party":"PvdD","score":4},{"party":"CDA","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"VVD","score":3}]}]},{"id":58,"isFollowup":false,"text":"De overheid moet investeren in onderzoek naar of een “Purge” een positieve bijdrage geeft aan de sociale cohesie.","type":"mc","absurdity":"8","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"FvD","score":9},{"party":"VVD","score":3},{"party":"PVV","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"FvD","score":-15},{"party":"VVD","score":-2},{"party":"PVV","score":-4}]}]},{"id":59,"isFollowup":false,"text":"De leeslijst in het middelbaar onderwijs moet democratisch worden samengesteld.","type":"mc","absurdity":"2","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"Volt","score":4}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"FvD","score":-5}]}]},{"id":60,"isFollowup":false,"text":"Pino moet worden geridderd tot Strijder van het Koninkrijk der Nederlanden.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":-2},{"party":"BBB","score":5},{"party":"VVD","score":3},{"party":"PvdD","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":1},{"party":"BBB","score":-2}]}]},{"id":61,"isFollowup":false,"text":"Nederlandse sporters die in Monaco wonen hoeven geen belasting te betalen.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":-6},{"party":"PvdD","score":-2},{"party":"Volt","score":-4},{"party":"FvD","score":3},{"party":"VVD","score":15}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":10},{"party":"Volt","score":8},{"party":"PvdD","score":2},{"party":"VVD","score":-6}]}]},{"id":62,"isFollowup":false,"text":"Cocaïne moet op lijst 1 van de Opiumwet komen.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":5},{"party":"BBB","score":-1},{"party":"CDA","score":1},{"party":"D66","score":1},{"party":"FvD","score":4},{"party":"Volt","score":2},{"party":"PVV","score":-2},{"party":"NSC","score":-1},{"party":"VVD","score":-6},{"party":"PvdD","score":3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":-1},{"party":"BBB","score":1},{"party":"CDA","score":1},{"party":"D66","score":2},{"party":"FvD","score":1},{"party":"Volt","score":-2},{"party":"PVV","score":1},{"party":"NSC","score":1},{"party":"VVD","score":3}]}]},{"id":63,"isFollowup":false,"text":"Nederland moet investeren in een Hyperloop tussen Zoetermeer en Zwolle. De ZZ -lijn","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":7},{"party":"VVD","score":-1},{"party":"CDA","score":3},{"party":"D66","score":3},{"party":"NSC","score":4},{"party":"PvdD","score":5},{"party":"Volt","score":5}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":-4},{"party":"VVD","score":3}]}]},{"id":64,"isFollowup":false,"text":"De abortuswet moet worden uitgebreid om abortus toe te staan tot 4 jaar na de geboorte.","type":"mc","absurdity":"14","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":3},{"party":"CDA","score":-3},{"party":"VVD","score":-1},{"party":"PvdD","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"CDA","score":8},{"party":"VVD","score":2}]}]},{"id":65,"isFollowup":false,"text":"Het verven van haar in onnatuurlijke kleuren moet worden gestimuleerd.","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":1},{"party":"PvdD","score":8}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":-2},{"party":"PvdD","score":-7},{"party":"PVV","score":7},{"party":"VVD","score":2}]}]},{"id":66,"isFollowup":false,"text":"De kieteldood moet als straf beschikbaar worden gesteld.","type":"mc","absurdity":"7","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"CDA","score":1},{"party":"PvdAGL","score":-3}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":1}]}]},{"id":67,"isFollowup":false,"text":"Een vierzit in de trein opeisen als een enkel persoon moet strafbaar worden.","type":"mc","absurdity":"2","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":3},{"party":"Volt","score":3},{"party":"FvD","score":-5}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":-3},{"party":"FvD","score":8}]}]},{"id":68,"isFollowup":false,"text":"Iedereen die ooit niet werk-gerelateerde dingen in een zakelijke groepschat heeft gestuurd moet daarvoor zijn excuses aanbieden.","type":"mc","absurdity":"2","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":2},{"party":"VVD","score":-11},{"party":"CDA","score":-1},{"party":"D66","score":-1},{"party":"FvD","score":-5}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":0},{"party":"FvD","score":1},{"party":"CDA","score":2},{"party":"D66","score":2},{"party":"VVD","score":6},{"party":"PVV","score":2}]}]},{"id":69,"isFollowup":false,"text":"Kiezen voor euthanasie moet worden bestraft met de dood.","type":"mc","absurdity":"13","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"FvD","score":5},{"party":"PvdAGL","score":2},{"party":"BBB","score":0},{"party":"VVD","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"FvD","score":-5},{"party":"PvdAGL","score":2}]}]},{"id":70,"isFollowup":false,"text":"Bosch GTS 10XC zaagtafels moeten worden belast in het verlaagde BTW tarief.","type":"mc","absurdity":"5","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":-4},{"party":"PvdAGL","score":2},{"party":"PvdD","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"VVD","score":4}]}]},{"id":71,"isFollowup":false,"text":"Op familievakanties moet de route weer op een papieren kaart worden uitgestippeld.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":1},{"party":"D66","score":4},{"party":"CDA","score":5},{"party":"NSC","score":3},{"party":"VVD","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":1},{"party":"D66","score":1}]}]},{"id":72,"isFollowup":false,"text":"De Nederlandse vlag moet worden aangepast naar wit bovenaan, blauw in het midden en rood onderaan","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"BBB","score":10},{"party":"FvD","score":15},{"party":"PVV","score":5}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"BBB","score":-6},{"party":"PVV","score":-3},{"party":"FvD","score":-15}]}]},{"id":73,"isFollowup":false,"text":"Er moeten vanaf nu alleen nog maar gemengde kleedkamers zijn.","type":"mc","absurdity":"4","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PvdAGL","score":4},{"party":"D66","score":2},{"party":"CDA","score":2},{"party":"PvdD","score":7},{"party":"VVD","score":-2},{"party":"Volt","score":3},{"party":"PVV","score":-3},{"party":"FvD","score":-7},{"party":"BBB","score":-1},{"party":"NSC","score":2}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":-2},{"party":"BBB","score":1},{"party":"CDA","score":-1},{"party":"D66","score":-1},{"party":"FvD","score":5},{"party":"Volt","score":-2},{"party":"PVV","score":2},{"party":"NSC","score":1},{"party":"VVD","score":1},{"party":"PvdD","score":-1}]}]},{"id":74,"isFollowup":false,"text":"Na het sporten moet er weer verplicht worden gedoucht worden op de club.","type":"mc","absurdity":"3","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"VVD","score":3},{"party":"NSC","score":4},{"party":"BBB","score":1},{"party":"PVV","score":1},{"party":"CDA","score":1},{"party":"D66","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[]}]},{"id":75,"isFollowup":false,"text":"Mannelijke gymleraren hebben al het recht om in de meidenkleedkamer te zijn.","type":"mc","absurdity":"6","modifiers":[],"answers":[{"id":0,"text":"Eens","modifiers":[],"effects":[{"party":"PVV","score":2},{"party":"VVD","score":1},{"party":"FvD","score":3},{"party":"BBB","score":1}]},{"id":1,"text":"Oneens","modifiers":[],"effects":[{"party":"PvdAGL","score":2},{"party":"BBB","score":1},{"party":"CDA","score":1},{"party":"D66","score":1},{"party":"FvD","score":-3},{"party":"Volt","score":1},{"party":"PVV","score":-1},{"party":"NSC","score":1},{"party":"VVD","score":-1},{"party":"PvdD","score":3}]}]}]
+[
+  {
+    "id": 0,
+    "isFollowup": false,
+    "text": "Hoe vaak heeft u het afgelopen jaar geprotesteerd?",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "0 keer", "modifiers": [], "effects": [] },
+      {
+        "id": 1,
+        "text": "1 tot 3 keer",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "BBB", "score": 2 },
+          { "party": "FvD", "score": 1 }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "4 tot 10 keer",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": 5 },
+          { "party": "PvdAGL", "score": 4 },
+          { "party": "CDA", "score": 1 },
+          { "party": "FvD", "score": 3 }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "11 keer of vaker",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "BBB", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "isFollowup": false,
+    "text": "Gaat u stemmen?",
+    "type": "mc",
+    "absurdity": 1,
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Ja", "modifiers": [], "effects": [] },
+      {
+        "id": 1,
+        "text": "Nee",
+        "modifiers": [{ "type": "finish", "option": "" }],
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "isFollowup": false,
+    "text": "Houdt u van dieren?",
+    "type": "mc",
+    "absurdity": "1",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ja",
+        "modifiers": [{ "type": "followup", "option": 3 }],
+        "effects": [
+          { "party": "PvdAGL", "score": 0 },
+          { "party": "PvdD", "score": 10 },
+          { "party": "BBB", "score": 5 },
+          { "party": "PVV", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Nee",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 0 },
+          { "party": "PvdD", "score": -10 },
+          { "party": "BBB", "score": 3 },
+          { "party": "PVV", "score": -1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "isFollowup": true,
+    "text": "Als huisdier of op uw bord?",
+    "type": "mc",
+    "absurdity": 1,
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Als huisdier",
+        "modifiers": [],
+        "effects": [{ "party": "PvdD", "score": 10 }]
+      },
+      {
+        "id": 1,
+        "text": "Op mijn bord",
+        "modifiers": [],
+        "effects": [{ "party": "PvdD", "score": -20 }]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "isFollowup": false,
+    "text": "Hoe hard wilt u kunnen rijden op de snelweg?",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "50 km/u",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "80 km/u",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "PvdD", "score": 2 }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "100 km/u",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 7 },
+          { "party": "PVV", "score": 3 }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "120 km/u",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 10 },
+          { "party": "PvdAGL", "score": -5 },
+          { "party": "PVV", "score": 4 }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Geen snelheidslimiet",
+        "modifiers": [],
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "isFollowup": false,
+    "text": "Gelooft u in de maanlanding?",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ja",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": -15 }]
+      },
+      {
+        "id": 1,
+        "text": "Nee",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": 10 }]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "isFollowup": false,
+    "text": "Houdt u van onterecht kinderen uit huis plaatsen?",
+    "type": "mc",
+    "absurdity": "11",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ja",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 6 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Nee",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": -2 }]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "isFollowup": false,
+    "text": "Vindt u dat we België moeten annexeren?",
+    "type": "mc",
+    "absurdity": "9",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ja",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 5 },
+          { "party": "Volt", "score": 5 }
+        ]
+      },
+      { "id": 1, "text": "Nee", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 8,
+    "isFollowup": false,
+    "text": "Het moet normaal kunnen zijn om een cobra door de brievenbus van uw negentig jarige buurvrouw te gooien.",
+    "type": "mc",
+    "absurdity": "10",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": 1 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "Volt", "score": 3 },
+          { "party": "PvdAGL", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "isFollowup": false,
+    "text": "Wat vindt u van roken?",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Afschaffen die bende!",
+        "modifiers": [{ "type": "followup", "option": 102 }],
+        "effects": [{ "party": "PvdAGL", "score": 2 }]
+      },
+      {
+        "id": 1,
+        "text": "Niks mis mee",
+        "modifiers": [
+          {
+            "type": "redirect",
+            "option": "https://www.kwf.nl/kanker-voorkomen/stoppen-met-roken/gevolgen-van-roken"
+          }
+        ],
+        "effects": [
+          { "party": "BBB", "score": 10 },
+          { "party": "PVV", "score": 3 },
+          { "party": "VVD", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "isFollowup": false,
+    "text": "Er moet extra belasting komen op vegetarische erwtensoep",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 1 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "isFollowup": false,
+    "text": "Ik ben het eens met Reza Meems",
+    "type": "mc",
+    "absurdity": "1",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Ja", "modifiers": [], "effects": [] },
+      { "id": 1, "text": "Eens", "modifiers": [], "effects": [] },
+      { "id": 2, "text": "Klopt", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 12,
+    "isFollowup": false,
+    "text": "De Nederlandse marine moet weer met VOC slagschepen de Noordzee gaan beveiligen.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 5 },
+          { "party": "PVV", "score": 3 },
+          { "party": "VVD", "score": 1 }
+        ]
+      },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 13,
+    "isFollowup": false,
+    "text": "We moeten wiet gaan verbouwen in leegstaande kantoor panden.",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "CDA", "score": 2 },
+          { "party": "PvdD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 2 }]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "isFollowup": false,
+    "text": "Abortus bij panda's moet toegestaan worden.",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "PvdD", "score": 8 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdD", "score": -4 }]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "isFollowup": false,
+    "text": "Friet of patat?",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Friet",
+        "modifiers": [],
+        "effects": [{ "party": "PVV", "score": 1 }]
+      },
+      {
+        "id": 1,
+        "text": "Patat",
+        "modifiers": [],
+        "effects": [{ "party": "BBB", "score": 1 }]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "isFollowup": false,
+    "text": "Er moet meer worden geinvesteerd in het opwekken van stroom door middel van hamsters",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 2 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdD", "score": 3 }]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "isFollowup": false,
+    "text": "De belastingdienst moet worden overgelaten aan de vrije markt.",
+    "type": "mc",
+    "absurdity": "7",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 5 },
+          { "party": "FvD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 1 }]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "isFollowup": false,
+    "text": "'Even aan m'n moeder vragen' van Bloem moet het volkslied worden.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Eens", "modifiers": [], "effects": [] },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 19,
+    "isFollowup": false,
+    "text": "Een snackmix met bamihapjes aanbieden moet illegaal worden.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdD", "score": 4 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdD", "score": -2 }]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "isFollowup": false,
+    "text": "Er moet een tweede A12 worden aangelegd voor klimaatdemonstranten.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 9 },
+          { "party": "BBB", "score": 6 },
+          { "party": "PVV", "score": 6 },
+          { "party": "NSC", "score": 1 },
+          { "party": "FvD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "Volt", "score": 4 },
+          { "party": "PvdD", "score": 3 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "isFollowup": false,
+    "text": "Nederlandse klimaatdoelen moeten worden uitgesteld tot 2863.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": 15 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 15 },
+          { "party": "PvdD", "score": 15 },
+          { "party": "CDA", "score": 3 },
+          { "party": "BBB", "score": -3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "isFollowup": false,
+    "text": "Plofkippen moeten zich in het donorregister registreren voordat ze tot kipnuggets mogen worden gemaakt.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdD", "score": 3 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "BBB", "score": 5 }]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "isFollowup": false,
+    "text": "Je tas op de stoel naast je zetten in de trein moet strafbaar worden.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 2 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 2 },
+          { "party": "VVD", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "isFollowup": false,
+    "text": "Voorgedraaide jonko's moeten worden vergoed vanuit het basispakket.",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 6 },
+          { "party": "PvdAGL", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 3 }]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "isFollowup": false,
+    "text": "Om discriminatie op basis van kleur tegen te gaan moeten stoplichten alleen nog maar groen licht geven.",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 7 },
+          { "party": "PvdAGL", "score": -1 },
+          { "party": "PVV", "score": 2 },
+          { "party": "FvD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "BBB", "score": -1 },
+          { "party": "Volt", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "isFollowup": false,
+    "text": "Om de wachttijden bij het CBR te verminderen, kunnen de praktijkexamens voortaan ook via GTA5 worden afgenomen.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 4 },
+          { "party": "CDA", "score": 4 }
+        ]
+      },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 27,
+    "isFollowup": false,
+    "text": "Koffieshop mogen alleen nog maar drugs verkopen met koffiesmaak, met een uitzondering op vapes.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 2 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "VVD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "isFollowup": false,
+    "text": "Afval moeten worden gescheiden op basis van kleur.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 2 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": -2 }]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "isFollowup": false,
+    "text": "Paardrijden moet worden afgeschaft als officiële sport.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 3 },
+          { "party": "FvD", "score": 3 },
+          { "party": "PvdD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdD", "score": -3 }]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "isFollowup": false,
+    "text": "Om kansgelijkheid te stimuleren wordt het middelbare schooladvies bepaald door een lotterijsysteem.",
+    "type": "mc",
+    "absurdity": "7",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Eens", "modifiers": [], "effects": [] },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "isFollowup": false,
+    "text": "Pepernoten mogen pas na 1 oktober in de winkels liggen, met uitzondering van chocolade pepernoten.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Eens", "modifiers": [], "effects": [] },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PVV", "score": 1 }]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "isFollowup": false,
+    "text": "Om de verspreiding van vogelgriep te limiteren moet alle kippen verplicht mondkapjes dragen.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "BBB", "score": 2 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": 2 },
+          { "party": "FvD", "score": 9 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "isFollowup": false,
+    "text": "Wat vind u van de plannen voor de Thoriummijn in het IJsselmeer.",
+    "type": "mc",
+    "absurdity": 1,
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Goed",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": 3 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 1 },
+          { "party": "NSC", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Slecht",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 15 }]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "isFollowup": false,
+    "text": "Er moet meer worden geïnvesteerd in het onderwijzen van de koning.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 3 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 10 },
+          { "party": "NSC", "score": 10 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "isFollowup": false,
+    "text": "Drenthe moet zich afscheiden van Nederland, we gaan terug naar 11 provincies.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "Volt", "score": -5 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "Volt", "score": 5 },
+          { "party": "BBB", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "isFollowup": false,
+    "text": "We moeten de gehele publieke omroep uitprocederen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 2 },
+          { "party": "FvD", "score": 10 },
+          { "party": "NSC", "score": 15 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": -11 },
+          { "party": "NSC", "score": -8 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "isFollowup": false,
+    "text": "Internet cookies moeten standaard worden afgewezen.",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "Volt", "score": 15 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "Volt", "score": -9 }]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "isFollowup": false,
+    "text": "We moeten elke tiener in de randstad een mes geven om zichzelf te kunnen verdedigen tegen ander tuig.",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PVV", "score": 6 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 6 },
+          { "party": "VVD", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "isFollowup": false,
+    "text": "De voertaal op het hoger onderwijs moet latijn worden.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 15 },
+          { "party": "NSC", "score": 8 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "NSC", "score": 8 },
+          { "party": "PvdAGL", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "isFollowup": false,
+    "text": "Studenten die een universitaire opleiding volgen hebben recht op eerste klas studenten OV.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 6 },
+          { "party": "PvdAGL", "score": 6 },
+          { "party": "Volt", "score": 6 },
+          { "party": "CDA", "score": 3 },
+          { "party": "PvdD", "score": 6 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 6 }]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "isFollowup": false,
+    "text": "Nederland moet zijn grenzen dichthouden voor Duitse strandbezoekers.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 5 },
+          { "party": "VVD", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 2 }]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "isFollowup": false,
+    "text": "Nederland moet het loon voor iedereen zo minimum mogelijk maken.",
+    "type": "mc",
+    "absurdity": 1,
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 15 },
+          { "party": "PvdAGL", "score": -4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 6 },
+          { "party": "NSC", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "isFollowup": false,
+    "text": " Mensen die zeggen dat ze groen zijn moeten verplicht staande worden gehouden op Schiphol om hun CO2 te compenseren.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "VVD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": -2 }]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "isFollowup": false,
+    "text": "Als probleem voor het woningtekort moet de overheid twee mega wolkenkrabbers bouwen in Nieuw Amsterdam.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 3 },
+          { "party": "VVD", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 2 }]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "isFollowup": false,
+    "text": "Er moet extra worden geïnvesteerd in de ontwikkeling van biologisch afbreekbaar asbest/asfalt.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 8 },
+          { "party": "VVD", "score": 5 }
+        ]
+      },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 46,
+    "isFollowup": false,
+    "text": "Elke inwoner van Borssele moet een kernreactor in zijn tuin.",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": -4 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 15 }]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "isFollowup": false,
+    "text": "Studentenverenigingen moeten verplicht hun ontgroeningen in Qatar houden.",
+    "type": "mc",
+    "absurdity": "7",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 6 }]
+      },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 48,
+    "isFollowup": false,
+    "text": "DUO moet een rente van 6.9% invoeren op de studieschuld.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 15 },
+          { "party": "CDA", "score": -1 },
+          { "party": "D66", "score": 6 },
+          { "party": "BBB", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 3 },
+          { "party": "Volt", "score": 1 },
+          { "party": "NSC", "score": 6 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "isFollowup": false,
+    "text": "Baseert u uw mening in volledigheid op de mening van Arjen Lubach?",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ja natuurlijk!",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 15 },
+          { "party": "Volt", "score": 9 },
+          { "party": "CDA", "score": -2 },
+          { "party": "VVD", "score": -15 },
+          { "party": "NSC", "score": 2 },
+          { "party": "PVV", "score": -5 },
+          { "party": "PvdD", "score": 7 },
+          { "party": "D66", "score": 2 },
+          { "party": "BBB", "score": -4 },
+          { "party": "FvD", "score": -15 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Nee joh!",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": 2 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 2 },
+          { "party": "FvD", "score": 7 },
+          { "party": "Volt", "score": -2 },
+          { "party": "PVV", "score": 5 },
+          { "party": "NSC", "score": 3 },
+          { "party": "VVD", "score": 5 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "isFollowup": false,
+    "text": "Waarom wordt het woord van de heer J. Tak gecensureerd?",
+    "type": "mc",
+    "absurdity": "7",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Wie de fak is J.Tak?",
+        "modifiers": [],
+        "effects": []
+      },
+      {
+        "id": 1,
+        "text": "Omdat je slechte meningen moet kunnen onderdrukken",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 10 },
+          { "party": "VVD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "isFollowup": false,
+    "text": "De afsluitdijk moet worden afgesloten.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 8 },
+          { "party": "VVD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 2 }]
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "isFollowup": false,
+    "text": "Er moet een muur worden gebouwd om ons te beschermingen tegen Antarcticaanse vluchtelingen.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PVV", "score": 5 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "Volt", "score": 1 },
+          { "party": "PVV", "score": -3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "isFollowup": false,
+    "text": "Alle immigranten moeten op een bootje naar Texel worden gestuurd voor een groepsreis.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Eens", "modifiers": [], "effects": [] },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PVV", "score": 7 }]
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "isFollowup": false,
+    "text": "Nederlandse militairen moeten in het diepste geheim gaan trainen in de steegjes van Raalte Noord.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 3 },
+          { "party": "FvD", "score": 3 },
+          { "party": "NSC", "score": 4 }
+        ]
+      },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 55,
+    "isFollowup": false,
+    "text": "De Nederlandse overheid moet aandelen kopen in de albums van Snelle met gelden uit het cultuur fonds.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "CDA", "score": 4 },
+          { "party": "D66", "score": 4 },
+          { "party": "NSC", "score": 9 },
+          { "party": "BBB", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [
+          {
+            "type": "redirect",
+            "option": "https://www.youtube.com/watch?v=MlCEMOUDfEE&ab_channel=ROQ'NROLLAMusic"
+          }
+        ],
+        "effects": [{ "party": "VVD", "score": 2 }]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "isFollowup": false,
+    "text": "Mensen die worden betrapt op zwartrijden kunnen boetes ontlopen door Per Spoor van Guus Meeuwis te zingen in de trein.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PVV", "score": 3 }]
+      },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 57,
+    "isFollowup": false,
+    "text": "Mensen moeten belasting gaan betalen voor beenruimte in het vliegtuig.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "BBB", "score": 1 },
+          { "party": "D66", "score": 1 },
+          { "party": "PvdD", "score": 4 },
+          { "party": "CDA", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 3 }]
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "isFollowup": false,
+    "text": "De overheid moet investeren in onderzoek naar of een “Purge” een positieve bijdrage geeft aan de sociale cohesie.",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 9 },
+          { "party": "VVD", "score": 3 },
+          { "party": "PVV", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": -15 },
+          { "party": "VVD", "score": -2 },
+          { "party": "PVV", "score": -4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "isFollowup": false,
+    "text": "De leeslijst in het middelbaar onderwijs moet democratisch worden samengesteld.",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "Volt", "score": 4 },
+          { "party": "NSC", "score": -2 },
+          { "party": "FvD", "score": -15 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 7 },
+          { "party": "NSC", "score": 9 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "isFollowup": false,
+    "text": "Pino moet worden geridderd tot Strijder van het Koninkrijk der Nederlanden.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": 5 },
+          { "party": "VVD", "score": 3 },
+          { "party": "PvdD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "BBB", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "isFollowup": false,
+    "text": "Nederlandse sporters die in Monaco wonen hoeven geen belasting te betalen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -6 },
+          { "party": "PvdD", "score": -2 },
+          { "party": "Volt", "score": -4 },
+          { "party": "FvD", "score": 3 },
+          { "party": "VVD", "score": 15 },
+          { "party": "NSC", "score": -2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 7 },
+          { "party": "Volt", "score": 5 },
+          { "party": "PvdD", "score": 2 },
+          { "party": "VVD", "score": -6 },
+          { "party": "NSC", "score": 15 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "isFollowup": false,
+    "text": "Cocaïne moet op lijst 1 van de Opiumwet komen.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "BBB", "score": -1 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 1 },
+          { "party": "FvD", "score": 4 },
+          { "party": "Volt", "score": 2 },
+          { "party": "PVV", "score": -2 },
+          { "party": "NSC", "score": -1 },
+          { "party": "VVD", "score": -6 },
+          { "party": "PvdD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -1 },
+          { "party": "BBB", "score": 1 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 2 },
+          { "party": "FvD", "score": 1 },
+          { "party": "Volt", "score": -2 },
+          { "party": "PVV", "score": 1 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "isFollowup": false,
+    "text": "Nederland moet investeren in een Hyperloop tussen Zoetermeer en Zwolle. De ZZ -lijn",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 15 },
+          { "party": "VVD", "score": -3 },
+          { "party": "CDA", "score": 3 },
+          { "party": "D66", "score": 3 },
+          { "party": "NSC", "score": 10 },
+          { "party": "PvdD", "score": 3 },
+          { "party": "Volt", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "VVD", "score": 6 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "isFollowup": false,
+    "text": "De abortuswet moet worden uitgebreid om abortus toe te staan tot 4 jaar na de geboorte.",
+    "type": "mc",
+    "absurdity": "14",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "CDA", "score": -3 },
+          { "party": "VVD", "score": -1 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 8 },
+          { "party": "VVD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "isFollowup": false,
+    "text": "Het verven van haar in onnatuurlijke kleuren moet worden gestimuleerd.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "PvdD", "score": 8 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "PvdD", "score": -7 },
+          { "party": "PVV", "score": 7 },
+          { "party": "VVD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "isFollowup": false,
+    "text": "De kieteldood moet als straf beschikbaar worden gesteld.",
+    "type": "mc",
+    "absurdity": "7",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 1 },
+          { "party": "PvdAGL", "score": -3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 1 }]
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "isFollowup": false,
+    "text": "Een vierzit in de trein opeisen als een enkel persoon moet strafbaar worden.",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 12 },
+          { "party": "Volt", "score": 3 },
+          { "party": "FvD", "score": -5 },
+          { "party": "NSC", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "FvD", "score": 8 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "isFollowup": false,
+    "text": "Iedereen die ooit niet werk-gerelateerde dingen in een zakelijke groepschat heeft gestuurd moet daarvoor zijn excuses aanbieden.",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "VVD", "score": -11 },
+          { "party": "CDA", "score": -1 },
+          { "party": "D66", "score": -1 },
+          { "party": "FvD", "score": -5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 0 },
+          { "party": "FvD", "score": 1 },
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 2 },
+          { "party": "VVD", "score": 6 },
+          { "party": "PVV", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "isFollowup": false,
+    "text": "Kiezen voor euthanasie moet worden bestraft met de dood.",
+    "type": "mc",
+    "absurdity": "13",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 5 },
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "BBB", "score": 0 },
+          { "party": "VVD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": -5 },
+          { "party": "PvdAGL", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "isFollowup": false,
+    "text": "Bosch GTS 10XC zaagtafels moeten worden belast in het verlaagde BTW tarief.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": -4 },
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 4 }]
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "isFollowup": false,
+    "text": "Op familievakanties moet de route weer op een papieren kaart worden uitgestippeld.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "D66", "score": 4 },
+          { "party": "CDA", "score": 5 },
+          { "party": "NSC", "score": 3 },
+          { "party": "VVD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "D66", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "isFollowup": false,
+    "text": "De Nederlandse vlag moet worden aangepast naar wit bovenaan, blauw in het midden en rood onderaan",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": 10 },
+          { "party": "FvD", "score": 15 },
+          { "party": "PVV", "score": 5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": -6 },
+          { "party": "PVV", "score": -3 },
+          { "party": "FvD", "score": -15 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "isFollowup": false,
+    "text": "Er moeten vanaf nu alleen nog maar gemengde kleedkamers zijn.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 4 },
+          { "party": "D66", "score": 2 },
+          { "party": "CDA", "score": 2 },
+          { "party": "PvdD", "score": 7 },
+          { "party": "VVD", "score": -2 },
+          { "party": "Volt", "score": 3 },
+          { "party": "PVV", "score": -3 },
+          { "party": "FvD", "score": -7 },
+          { "party": "BBB", "score": -1 },
+          { "party": "NSC", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": 1 },
+          { "party": "CDA", "score": -1 },
+          { "party": "D66", "score": -1 },
+          { "party": "FvD", "score": 5 },
+          { "party": "Volt", "score": -2 },
+          { "party": "PVV", "score": 2 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": 1 },
+          { "party": "PvdD", "score": -1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "isFollowup": false,
+    "text": "Na het sporten moet er weer verplicht gedoucht worden op de club.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 3 },
+          { "party": "NSC", "score": 4 },
+          { "party": "BBB", "score": 1 },
+          { "party": "PVV", "score": 1 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 1 }
+        ]
+      },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 75,
+    "isFollowup": false,
+    "text": "Mannelijke gymleraren hebben al het recht om in de meidenkleedkamer te zijn.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 2 },
+          { "party": "VVD", "score": 1 },
+          { "party": "FvD", "score": 3 },
+          { "party": "BBB", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "BBB", "score": 1 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 1 },
+          { "party": "FvD", "score": -3 },
+          { "party": "Volt", "score": 1 },
+          { "party": "PVV", "score": -1 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": -1 },
+          { "party": "PvdD", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "isFollowup": false,
+    "text": "Mensen met een HAVO diploma mogen de zin \"ik had ook gewoon VWO kunnen doen\" niet meer uitspreken.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": -10 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": 4 }]
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "isFollowup": false,
+    "text": "Nederland moet extra financiële steun bieden aan WK’s die worden georganiseerd in landen waarin er geen sprake is van mensenrechten.",
+    "type": "mc",
+    "absurdity": "7",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 5 },
+          { "party": "BBB", "score": 2 },
+          { "party": "FvD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "CDA", "score": 4 },
+          { "party": "Volt", "score": 2 },
+          { "party": "NSC", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "isFollowup": false,
+    "text": " Om de klimaatdoelen te halen moet tanken goedkoper worden en OV duurder worden.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 3 },
+          { "party": "VVD", "score": 5 },
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "Volt", "score": -1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "VVD", "score": -3 },
+          { "party": "NSC", "score": 1 },
+          { "party": "CDA", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "isFollowup": false,
+    "text": "De Nederlandse inzendingen voor het Eurovisie songfestival moeten alleen Nederlandse teksten bevatten.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "NSC", "score": 6 },
+          { "party": "BBB", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "NSC", "score": -2 },
+          { "party": "BBB", "score": -1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "isFollowup": false,
+    "text": "Kledingwinkels moeten voortaan voor minstens 50% uit mannenkleding bestaan.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "PvdD", "score": 2 },
+          { "party": "BBB", "score": -1 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 1 },
+          { "party": "FvD", "score": 1 },
+          { "party": "Volt", "score": 1 },
+          { "party": "PVV", "score": 1 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": 1 },
+          { "party": "CDA", "score": 1 },
+          { "party": "FvD", "score": 1 },
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "D66", "score": 2 },
+          { "party": "Volt", "score": 1 },
+          { "party": "PVV", "score": -1 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": -1 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "isFollowup": false,
+    "text": "Er moet een groentetaks komen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -1 },
+          { "party": "BBB", "score": -3 },
+          { "party": "CDA", "score": 1 },
+          { "party": "VVD", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "BBB", "score": 4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "isFollowup": false,
+    "text": "Nederland moet uit de EU stappen en lid worden van de Verenigde Staten.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "Volt", "score": -8 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "Volt", "score": 15 }]
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "isFollowup": false,
+    "text": "1 Juni moet een vrije dag worden.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "NSC", "score": 13 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "NSC", "score": -8 }]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "isFollowup": false,
+    "text": "De regering moet de btw op culturele activiteiten verhogen naar 100%.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Eens", "modifiers": [], "effects": [] },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 4 },
+          { "party": "D66", "score": 4 },
+          { "party": "NSC", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "isFollowup": false,
+    "text": "Om de Groningers te helpen moet er ook in de rest van het land aardbevingen worden opgewekt.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 7 },
+          { "party": "PvdAGL", "score": 4 },
+          { "party": "BBB", "score": 3 },
+          { "party": "FvD", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "NSC", "score": 4 },
+          { "party": "PvdAGL", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "isFollowup": false,
+    "text": "Een clownsneus moet worden toegevoegd aan de bedrijfskleding van een buitengewoon opsporingsambtenaar (boa).",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 3 },
+          { "party": "BBB", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": -5 },
+          { "party": "BBB", "score": -1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "isFollowup": false,
+    "text": "Gevangen die zichzelf als communistisch identificeren moeten verplicht aardappels verbouwen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "BBB", "score": 8 },
+          { "party": "Volt", "score": 2 },
+          { "party": "NSC", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "BBB", "score": -2 },
+          { "party": "VVD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "isFollowup": false,
+    "text": " Er moet een Nederlands ruimteprogramma komen met een lanceringsinstallatie op Schiermonnikoog.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -5 },
+          { "party": "FvD", "score": -10 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "BBB", "score": 2 },
+          { "party": "CDA", "score": 7 },
+          { "party": "D66", "score": 6 },
+          { "party": "FvD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "isFollowup": false,
+    "text": "Er moeten meer rijkswegen recht door dorpen komen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "NSC", "score": -7 },
+          { "party": "VVD", "score": 10 },
+          { "party": "PvdAGL", "score": -5 },
+          { "party": "BBB", "score": -3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 6 },
+          { "party": "BBB", "score": 10 },
+          { "party": "VVD", "score": -7 },
+          { "party": "NSC", "score": 15 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "isFollowup": false,
+    "text": "Het verkiezingsprogramma van een politieke partij moet meer dan een maand voor de verkiezingen bekend worden gemaakt.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "BBB", "score": 3 },
+          { "party": "CDA", "score": 4 },
+          { "party": "D66", "score": 4 },
+          { "party": "FvD", "score": 0 },
+          { "party": "Volt", "score": 2 },
+          { "party": "PVV", "score": 3 },
+          { "party": "NSC", "score": -2 },
+          { "party": "VVD", "score": 3 },
+          { "party": "PvdD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": -1 },
+          { "party": "CDA", "score": -1 },
+          { "party": "D66", "score": 0 },
+          { "party": "FvD", "score": -2 },
+          { "party": "Volt", "score": -1 },
+          { "party": "PVV", "score": -1 },
+          { "party": "NSC", "score": 8 },
+          { "party": "VVD", "score": -1 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "isFollowup": false,
+    "text": "Er moet een aanwezigheidsplicht komen voor keetavonden.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 15 },
+          { "party": "BBB", "score": 6 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": -5 },
+          { "party": "BBB", "score": -4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "isFollowup": false,
+    "text": " De dienstplicht moet weer worden ingevoerd voor 88-jarigen.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 10 },
+          { "party": "PvdAGL", "score": -4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": -4 },
+          { "party": "PvdAGL", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "isFollowup": false,
+    "text": "Waterstof moet gewoon worden verkocht in de supermarkt.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": 6 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": -6 }]
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "isFollowup": false,
+    "text": "Er moeten tribunalen komen voor partijen die democratie in hun naam hebben.",
+    "type": "mc",
+    "absurdity": "13",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": -15 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": 15 }]
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "isFollowup": false,
+    "text": "Lachgas moet legaal worden voor mensen zonder rijbewijs.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "VVD", "score": 5 },
+          { "party": "CDA", "score": -3 },
+          { "party": "D66", "score": 10 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "VVD", "score": -5 },
+          { "party": "D66", "score": -3 },
+          { "party": "CDA", "score": 7 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "isFollowup": false,
+    "text": "Politici moeten verplicht een week per jaar maatschappelijke stage doen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "NSC", "score": 7 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "NSC", "score": -7 }]
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "isFollowup": false,
+    "text": "Elke middelbare scholier moet in een academische/religieuze setting in aanmerking komen met alcohol.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "BBB", "score": -2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "BBB", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "isFollowup": false,
+    "text": "Amsterdam moet de hoofdstad worden van Noord-Holland.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 2 },
+          { "party": "VVD", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": -4 },
+          { "party": "VVD", "score": -6 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "isFollowup": false,
+    "text": "Er moet een educatie programma worden ontwikkeld voor seksueel voorlichting door Maarten van RossumEr moet een educatie methode/programma worden ontwikkeld voor seksueel voorlichting door Maarten van Rossum.",
+    "type": "mc",
+    "absurdity": "7",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": -15 },
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "NSC", "score": -6 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "FvD", "score": 3 },
+          { "party": "NSC", "score": 3 },
+          { "party": "PvdAGL", "score": -3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "isFollowup": false,
+    "text": "XTC moet legaal kunnen worden verbouwd en verkocht in Noord-Brabant.",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": 5 },
+          { "party": "PvdAGL", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": -5 },
+          { "party": "PvdAGL", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "isFollowup": false,
+    "text": "Voetbalhooligans moeten naast een stadionverbond verplicht naar alle uitwedstrijden van het vrouwenvoetbal gaan.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 3 },
+          { "party": "NSC", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": -3 },
+          { "party": "NSC", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "isFollowup": true,
+    "text": "Wappies en rokers moeten verplicht dubbel betalen voor een zorgverzekering.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": -9 },
+          { "party": "PvdAGL", "score": 10 },
+          { "party": "CDA", "score": 3 },
+          { "party": "D66", "score": 3 },
+          { "party": "PvdD", "score": 3 },
+          { "party": "FvD", "score": -15 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -9 },
+          { "party": "BBB", "score": 5 },
+          { "party": "CDA", "score": -2 },
+          { "party": "FvD", "score": 7 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "isFollowup": false,
+    "text": "Nederland moet volop investeren in de aanleg van het 6G netwerk.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "Volt", "score": 2 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "Volt", "score": -2 }]
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "isFollowup": false,
+    "text": "Rob Trip moet nieuwslezer van het jaar worden.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Eens", "modifiers": [], "effects": [] },
+      { "id": 1, "text": "Oneens", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 105,
+    "isFollowup": false,
+    "text": "Elk kind wordt geboren als onzijdig, het geslacht mag een kind dan op latere leeftijd kiezen",
+    "type": "mc",
+    "absurdity": "9",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 7 },
+          { "party": "PvdD", "score": 11 },
+          { "party": "PVV", "score": -6 },
+          { "party": "Volt", "score": 5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -8 },
+          { "party": "PvdD", "score": -9 },
+          { "party": "PVV", "score": 9 },
+          { "party": "Volt", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "isFollowup": false,
+    "text": "Er moet onderzoek worden gedaan of knoflookbrood kan worden gebruikt als chemisch wapen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": 5 },
+          { "party": "VVD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdD", "score": 6 },
+          { "party": "PVV", "score": 8 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "isFollowup": false,
+    "text": "Friesland moet onafhankelijk worden.",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "Volt", "score": -4 },
+          { "party": "BBB", "score": -2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "Volt", "score": 7 },
+          { "party": "BBB", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "isFollowup": false,
+    "text": "Fries suikervrij suikerbrood moet gratis op scholen worden aangeboden als lunch.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 6 },
+          { "party": "BBB", "score": 5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -6 },
+          { "party": "BBB", "score": -5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "isFollowup": false,
+    "text": "Wiskunde E moet standaard worden aangeboden op middelbare scholen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "D66", "score": 8 },
+          { "party": "CDA", "score": 7 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "CDA", "score": -5 },
+          { "party": "D66", "score": -5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "isFollowup": false,
+    "text": "Nederland moet de monarchie afschaffen en als dictatuur door gaan.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 10 },
+          { "party": "NSC", "score": 7 },
+          { "party": "FvD", "score": 3 },
+          { "party": "VVD", "score": -5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -10 },
+          { "party": "NSC", "score": -2 },
+          { "party": "FvD", "score": -3 },
+          { "party": "VVD", "score": 6 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "isFollowup": false,
+    "text": "De hoeveelheid toeslagen van de basisbeurs moet worden bepaald door de hoogte van je Snapscore.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "CDA", "score": 5 },
+          { "party": "D66", "score": 5 },
+          { "party": "PvdD", "score": 5 },
+          { "party": "VVD", "score": -1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "CDA", "score": -2 },
+          { "party": "D66", "score": -2 },
+          { "party": "PvdD", "score": -2 },
+          { "party": "VVD", "score": 4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "isFollowup": false,
+    "text": "Influencers moeten een speciaal rijbewijs halen.",
+    "type": "mc",
+    "absurdity": "2",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "VVD", "score": -1 },
+          { "party": "PVV", "score": -1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "PVV", "score": 2 },
+          { "party": "VVD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "isFollowup": false,
+    "text": "Famillievloggers moeten illegaal worden.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": -5 },
+          { "party": "PVV", "score": -2 },
+          { "party": "PvdAGL", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 5 },
+          { "party": "FvD", "score": 2 },
+          { "party": "PVV", "score": 3 },
+          { "party": "PvdAGL", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "isFollowup": false,
+    "text": "Er moet een speciale fietsstrook komen voor elektrische fietsen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "VVD", "score": -3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "VVD", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "isFollowup": false,
+    "text": "Er moet een jaarlijkse Dakar-stijl  wedstrijd worden georganiseerd in de duinen van Zandvoort",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 3 },
+          { "party": "PVV", "score": 3 },
+          { "party": "FvD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "Volt", "score": 2 },
+          { "party": "PvdD", "score": 10 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "isFollowup": false,
+    "text": "Er moet een brug worden gebouwd vanaf Vlieland naar Curaçao.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 3 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": -3 }]
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "isFollowup": false,
+    "text": " Mensen die na hun 18de levensjaar niet 1.80m zijn verliezen hun status als Nederlander.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "PVV", "score": 10 },
+          { "party": "NSC", "score": 5 },
+          { "party": "VVD", "score": 5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "VVD", "score": -3 },
+          { "party": "PVV", "score": -5 },
+          { "party": "NSC", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "isFollowup": false,
+    "text": "Om polarisatie tegen te gaan moet alle gelovigen een keer per jaar een religieuze dienst van een ander geloof bijwonen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "CDA", "score": -8 },
+          { "party": "NSC", "score": -4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "CDA", "score": 8 },
+          { "party": "NSC", "score": 4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "isFollowup": false,
+    "text": "Urk moet weer een eiland worden.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "BBB", "score": 2 },
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 2 },
+          { "party": "FvD", "score": -3 },
+          { "party": "Volt", "score": 2 },
+          { "party": "PVV", "score": 2 },
+          { "party": "NSC", "score": 2 },
+          { "party": "VVD", "score": 2 },
+          { "party": "PvdD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": -2 },
+          { "party": "CDA", "score": -2 },
+          { "party": "D66", "score": -2 },
+          { "party": "FvD", "score": 0 },
+          { "party": "Volt", "score": -2 },
+          { "party": "PVV", "score": -2 },
+          { "party": "NSC", "score": -2 },
+          { "party": "VVD", "score": -2 },
+          { "party": "PvdD", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "isFollowup": false,
+    "text": "Nederland moet een directe tolweg naar de camping in Frankrijk aanleggen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "BBB", "score": 2 },
+          { "party": "VVD", "score": 6 },
+          { "party": "PVV", "score": 4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "BBB", "score": -2 },
+          { "party": "VVD", "score": -6 },
+          { "party": "PVV", "score": -3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "isFollowup": false,
+    "text": "Het dragen van horloges met een waarde van meer dan honderdduizend euro in de randstad moet verboden worden.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": 4 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "VVD", "score": -4 }]
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "isFollowup": false,
+    "text": "Treinen van het OV moeten weer op stoom rijden om de klimaatdoelen te halen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "PvdD", "score": 5 },
+          { "party": "Volt", "score": 5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -5 },
+          { "party": "PvdD", "score": -2 },
+          { "party": "Volt", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "isFollowup": false,
+    "text": " Alle originele Nederlandse molens moeten worden omgebouwd tot windmolens.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "CDA", "score": 3 },
+          { "party": "PvdD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "CDA", "score": -1 },
+          { "party": "PvdD", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "isFollowup": false,
+    "text": "Nederland moet een eigen tijdzone krijgen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "Volt", "score": -5 },
+          { "party": "FvD", "score": 3 },
+          { "party": "PVV", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "Volt", "score": 7 },
+          { "party": "PVV", "score": -2 },
+          { "party": "FvD", "score": -3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "isFollowup": false,
+    "text": "Er moet een parlementaire enquête plaats vinden met de vraag : “Hoe vaak denkt u aan het romeinse rijk?”",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": 5 }]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": -5 }]
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "isFollowup": false,
+    "text": "Bitterballen mogen alleen nog maar zo heten als ze echt bitter zijn of ballen bevatten.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "PvdD", "score": 5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 5 },
+          { "party": "PVV", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "isFollowup": false,
+    "text": "Al het Nederlandse bier moet voortaan naar slootwater smaken.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": -3 },
+          { "party": "BBB", "score": -5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 3 },
+          { "party": "BBB", "score": 5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "isFollowup": false,
+    "text": "Alle zonnepanelen moeten groen worden geverfd om duidelijk te maken dat deze groene stroom leveren.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "PvdD", "score": 3 },
+          { "party": "Volt", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 0 },
+          { "party": "PvdD", "score": 0 },
+          { "party": "Volt", "score": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "isFollowup": false,
+    "text": "Er moet een Oost-West-Thuis-Best-lijn worden gerealiseerd.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 7 },
+          { "party": "CDA", "score": 5 },
+          { "party": "D66", "score": 5 },
+          { "party": "NSC", "score": 11 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "CDA", "score": -2 },
+          { "party": "D66", "score": -2 },
+          { "party": "NSC", "score": -5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "isFollowup": false,
+    "text": "Drugsafval moeten kunnen worden ingeleverd worden in de millieustraat.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "BBB", "score": 1 },
+          { "party": "CDA", "score": 3 },
+          { "party": "D66", "score": 3 },
+          { "party": "PvdD", "score": 6 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": -1 },
+          { "party": "CDA", "score": -1 },
+          { "party": "D66", "score": -1 },
+          { "party": "PvdD", "score": -3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "isFollowup": false,
+    "text": "Drugs moet vanaf nu in een statiegeld verpakking worden verkocht.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 2 },
+          { "party": "VVD", "score": -2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "CDA", "score": -1 },
+          { "party": "D66", "score": -1 },
+          { "party": "VVD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "isFollowup": false,
+    "text": "Er moet een latex-toeslag komen voor condooms.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 1 },
+          { "party": "NSC", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "PvdAGL", "score": -3 }]
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "isFollowup": false,
+    "text": "Er moet een klimaat-tsaar worden verkozen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 10 },
+          { "party": "BBB", "score": -1 },
+          { "party": "D66", "score": 3 },
+          { "party": "FvD", "score": -6 },
+          { "party": "PvdD", "score": 8 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Klimaatverandering wat is dat?",
+        "modifiers": [],
+        "effects": [
+          { "party": "BBB", "score": 6 },
+          { "party": "FvD", "score": 10 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "isFollowup": false,
+    "text": "Er moet een verbod op mobieltjes komen in de Tweede kamer.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "VVD", "score": -5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "VVD", "score": 5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "isFollowup": false,
+    "text": "Mensen die thuiswerken moeten verplicht een uur in hun auto zitten om het gevoel van woon-werk verkeer te behouden.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 5 },
+          { "party": "VVD", "score": 7 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": -4 },
+          { "party": "VVD", "score": -6 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "isFollowup": false,
+    "text": "Hybride werknemers moeten aan het begin van hun werkdag de telefoon in de telefoontas doen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": 3 },
+          { "party": "D66", "score": 6 },
+          { "party": "CDA", "score": 10 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "VVD", "score": -3 },
+          { "party": "D66", "score": -4 },
+          { "party": "CDA", "score": -8 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "isFollowup": false,
+    "text": "Spieken op examens moet worden toegestaan, mits je niet wordt betrapt.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "CDA", "score": 3 },
+          { "party": "D66", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "CDA", "score": 3 },
+          { "party": "D66", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "isFollowup": false,
+    "text": "De Trias politica moet worden uitgebreid naar een vierkant.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "FvD", "score": -3 },
+          { "party": "Volt", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "FvD", "score": 3 },
+          { "party": "Volt", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "isFollowup": false,
+    "text": "Pizza op ananas moet gewoon kunnen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "BBB", "score": 2 },
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 1 },
+          { "party": "FvD", "score": 2 },
+          { "party": "Volt", "score": -2 },
+          { "party": "PVV", "score": -2 },
+          { "party": "NSC", "score": -2 },
+          { "party": "VVD", "score": -2 },
+          { "party": "PvdD", "score": -3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -1 },
+          { "party": "BBB", "score": -2 },
+          { "party": "CDA", "score": -2 },
+          { "party": "D66", "score": -1 },
+          { "party": "FvD", "score": -1 },
+          { "party": "Volt", "score": 2 },
+          { "party": "PVV", "score": 2 },
+          { "party": "NSC", "score": 2 },
+          { "party": "VVD", "score": 2 },
+          { "party": "PvdD", "score": 5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "isFollowup": false,
+    "text": "Politici die geld uit Rusland ontvangen moeten verplicht in Oekraïne vechten.",
+    "type": "mc",
+    "absurdity": "6",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "CDA", "score": 3 },
+          { "party": "FvD", "score": -10 },
+          { "party": "PVV", "score": -5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "CDA", "score": -2 },
+          { "party": "FvD", "score": 7 },
+          { "party": "PVV", "score": 6 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "isFollowup": false,
+    "text": "De hoeveelheid IC-bedden moeten lineair verbonden zijn met doe hoeveelheid bedden in de AZC's. ",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PVV", "score": 5 },
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "VVD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "NSC", "score": 1 },
+          { "party": "PVV", "score": -4 },
+          { "party": "VVD", "score": -3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "isFollowup": false,
+    "text": "Elke gemeente moet een verplicht aantal buitenlandse datacenters opvangen.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "BBB", "score": -4 },
+          { "party": "VVD", "score": -3 },
+          { "party": "CDA", "score": -4 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": 5 },
+          { "party": "VVD", "score": 3 },
+          { "party": "CDA", "score": 6 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "isFollowup": false,
+    "text": "Rekeningrijden moet worden ingevoerd voor elektrische stepjes.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "BBB", "score": 2 },
+          { "party": "CDA", "score": -3 },
+          { "party": "D66", "score": -3 },
+          { "party": "FvD", "score": 0 },
+          { "party": "Volt", "score": -2 },
+          { "party": "PVV", "score": 3 },
+          { "party": "NSC", "score": -1 },
+          { "party": "VVD", "score": -15 },
+          { "party": "PvdD", "score": -3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "BBB", "score": -1 },
+          { "party": "CDA", "score": 4 },
+          { "party": "D66", "score": 4 },
+          { "party": "FvD", "score": 0 },
+          { "party": "Volt", "score": 3 },
+          { "party": "PVV", "score": -3 },
+          { "party": "NSC", "score": 2 },
+          { "party": "VVD", "score": 10 },
+          { "party": "PvdD", "score": 5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "isFollowup": false,
+    "text": "Van ruilen komt huilen.",
+    "type": "mc",
+    "absurdity": "3",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "VVD", "score": -5 },
+          { "party": "PVV", "score": -5 },
+          { "party": "FvD", "score": -2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -4 },
+          { "party": "VVD", "score": 6 },
+          { "party": "PVV", "score": 6 },
+          { "party": "FvD", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "isFollowup": false,
+    "text": "Mantelzorgers mogen alleen zo heten als ze een mantel dragen of openhaard bezitten.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "BBB", "score": 1 },
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 2 },
+          { "party": "FvD", "score": -1 },
+          { "party": "Volt", "score": 1 },
+          { "party": "PVV", "score": 1 },
+          { "party": "NSC", "score": 2 },
+          { "party": "VVD", "score": 1 },
+          { "party": "PvdD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "BBB", "score": 1 },
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 2 },
+          { "party": "FvD", "score": -1 },
+          { "party": "Volt", "score": 1 },
+          { "party": "PVV", "score": 1 },
+          { "party": "NSC", "score": 2 },
+          { "party": "VVD", "score": 1 },
+          { "party": "PvdD", "score": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "isFollowup": false,
+    "text": "Er moet worden bespaard op peuterzorg.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "BBB", "score": 3 },
+          { "party": "CDA", "score": -4 },
+          { "party": "D66", "score": -3 },
+          { "party": "FvD", "score": 5 },
+          { "party": "Volt", "score": -1 },
+          { "party": "PVV", "score": 3 },
+          { "party": "NSC", "score": 5 },
+          { "party": "VVD", "score": 4 },
+          { "party": "PvdD", "score": -3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 4 },
+          { "party": "BBB", "score": -2 },
+          { "party": "CDA", "score": 5 },
+          { "party": "D66", "score": 4 },
+          { "party": "FvD", "score": -6 },
+          { "party": "Volt", "score": 2 },
+          { "party": "PVV", "score": -3 },
+          { "party": "NSC", "score": -4 },
+          { "party": "VVD", "score": -4 },
+          { "party": "PvdD", "score": 4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "isFollowup": false,
+    "text": "Om exclusiviteit te bevorderen moet de rest van het alfabet worden toegevoegd aan LHBTIAQ+.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 5 },
+          { "party": "PvdD", "score": 6 },
+          { "party": "FvD", "score": -6 },
+          { "party": "PVV", "score": -4 },
+          { "party": "VVD", "score": -2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -3 },
+          { "party": "PvdD", "score": -3 },
+          { "party": "FvD", "score": 7 },
+          { "party": "PVV", "score": 5 },
+          { "party": "VVD", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "isFollowup": false,
+    "text": "Om over visserij te stoppen mag er alleen nog maar op walvissen worden gejaagd.",
+    "type": "mc",
+    "absurdity": "5",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "PvdD", "score": 3 },
+          { "party": "BBB", "score": 1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "PvdD", "score": 3 },
+          { "party": "BBB", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "isFollowup": false,
+    "text": "De stemgerechtigde leeftijd moet omlaag naar 16.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "CDA", "score": 3 },
+          { "party": "D66", "score": 4 },
+          { "party": "FvD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -1 },
+          { "party": "CDA", "score": -1 },
+          { "party": "FvD", "score": -4 },
+          { "party": "D66", "score": -3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "isFollowup": false,
+    "text": "Om kritiek op de regering te uiten moet u wel hebben gestemd.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "NSC", "score": 2 },
+          { "party": "FvD", "score": -10 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "NSC", "score": 1 },
+          { "party": "FvD", "score": 5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "isFollowup": false,
+    "text": "De AIVD moet meer rechten krijgen om onschuldige burgers te bespioneren.",
+    "type": "mc",
+    "absurdity": 1,
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "VVD", "score": 5 },
+          { "party": "PVV", "score": 3 },
+          { "party": "FvD", "score": 2 },
+          { "party": "NSC", "score": -3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -1 },
+          { "party": "NSC", "score": 6 },
+          { "party": "VVD", "score": -4 },
+          { "party": "FvD", "score": -5 },
+          { "party": "PVV", "score": -2 },
+          { "party": "CDA", "score": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "isFollowup": false,
+    "text": "Er moet een referendum worden gehouden om het toepassen van referenda af te schaffen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 4 },
+          { "party": "BBB", "score": 2 },
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 1 },
+          { "party": "FvD", "score": 5 },
+          { "party": "Volt", "score": -3 },
+          { "party": "PVV", "score": 2 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": -3 },
+          { "party": "PvdD", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 2 },
+          { "party": "Volt", "score": 3 },
+          { "party": "CDA", "score": 3 },
+          { "party": "VVD", "score": 3 },
+          { "party": "FvD", "score": -4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "isFollowup": false,
+    "text": "Vrijheid is een volgetankte Mercedes.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -4 },
+          { "party": "PVV", "score": 4 },
+          { "party": "VVD", "score": 5 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 6 },
+          { "party": "PVV", "score": -3 },
+          { "party": "VVD", "score": -4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "isFollowup": false,
+    "text": "\"Juice\" mag alleen worden verspreid door de voedsel en waren autoriteit goedgekeurde kanalen.",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "NSC", "score": 2 },
+          { "party": "VVD", "score": 1 },
+          { "party": "FvD", "score": -3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [{ "party": "FvD", "score": 4 }]
+      }
+    ]
+  }
+]
