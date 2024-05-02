@@ -4420,5 +4420,137 @@
         "effects": [{ "party": "FvD", "score": 4 }]
       }
     ]
+  },
+  {
+    "id": 155,
+    "isFollowup": false,
+    "text": "Om de afstand tussen het koningshuis te verkleinen moeten voortaan alle student bedreigd worden",
+    "type": "mc",
+    "absurdity": "7",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ja natuurlijk, kom maar op",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "BBB", "score": 3 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 2 },
+          { "party": "FvD", "score": 9 },
+          { "party": "Volt", "score": 4 },
+          { "party": "PVV", "score": 2 },
+          { "party": "NSC", "score": 0 },
+          { "party": "VVD", "score": 3 },
+          { "party": "PvdD", "score": -1 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Nee, we leven nog niet in een Narcostaat",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "BBB", "score": 0 },
+          { "party": "CDA", "score": 2 },
+          { "party": "D66", "score": 2 },
+          { "party": "FvD", "score": -3 },
+          { "party": "Volt", "score": -1 },
+          { "party": "PVV", "score": -2 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": 1 },
+          { "party": "PvdD", "score": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "isFollowup": false,
+    "text": "Chinese elektrische auto's mogen alleen in Nederland worden verkocht als ze doormiddel van kinderarbeid zijn gefabriceerd",
+    "type": "mc",
+    "absurdity": "8",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "VVD", "score": 3 },
+          { "party": "NSC", "score": 3 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 1 },
+          { "party": "VVD", "score": -2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "isFollowup": false,
+    "text": "De koning moet met koningsdag naar de volgende plaats:",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      { "id": 0, "text": "Tilburg", "modifiers": [], "effects": [] },
+      { "id": 1, "text": "Heino", "modifiers": [], "effects": [] },
+      { "id": 2, "text": "Zoetermeer", "modifiers": [], "effects": [] },
+      { "id": 3, "text": "Oost-Vlieland", "modifiers": [], "effects": [] },
+      { "id": 4, "text": "Madrid", "modifiers": [], "effects": [] }
+    ]
+  },
+  {
+    "id": 158,
+    "isFollowup": false,
+    "text": "Joost Klein moet een vrouwelijke versie van Europapa maken",
+    "type": "mc",
+    "absurdity": "4",
+    "modifiers": [],
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": 3 },
+          { "party": "BBB", "score": -2 },
+          { "party": "CDA", "score": 1 },
+          { "party": "D66", "score": 2 },
+          { "party": "FvD", "score": -3 },
+          { "party": "Volt", "score": 2 },
+          { "party": "PVV", "score": -1 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": 1 },
+          { "party": "PvdD", "score": 2 }
+        ]
+      },
+      {
+        "id": 1,
+        "text": "Oneens",
+        "modifiers": [],
+        "effects": [
+          { "party": "PvdAGL", "score": -2 },
+          { "party": "BBB", "score": 1 },
+          { "party": "CDA", "score": 0 },
+          { "party": "D66", "score": 0 },
+          { "party": "FvD", "score": 2 },
+          { "party": "Volt", "score": -2 },
+          { "party": "PVV", "score": 2 },
+          { "party": "NSC", "score": 1 },
+          { "party": "VVD", "score": 1 },
+          { "party": "PvdD", "score": -1 }
+        ]
+      }
+    ]
   }
 ]
