@@ -11,7 +11,7 @@ const Result = () => {
   return (
     <main className='colspan12'>
       <h1>Jouw favoriete partij van Reza Meems is {winner}</h1>
-      <img src={`../../public/ali posters/${winner}.webp`} className='winningPoster'></img>
+      <img src={`ali posters/${winner}.webp`} className='winningPoster'></img>
       <div id='replay'>
         <h2>Dit zijn de vragen die je hebt beantwoord:</h2>
         {replay.map(i => {
