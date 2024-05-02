@@ -3,11 +3,8 @@ import questions from '../questionList.json'
 
 const Result = () => {
   // let params = new URLSearchParams(window.location.search)
-  console.log('test')
   let { result } = useParams()
-  console.log(result)
   let data = JSON.parse(atob(result))
-  console.log(data)
   let winner = data.s.find(s => s.score === Math.max(...data.s.map(s=>s.score))).party
   let replay = []
   for(let i = 0; i < data.a.length; i ++) {
