@@ -90,7 +90,7 @@ const Kieswijzer = () => {
       redirect: "follow"
     };
 
-    fetch("api.rezameems.nl", requestOptions)
+    fetch("https://api.rezameems.nl", requestOptions)
       .then(() => 
         navigate(`/kieswijzer/resultaat/${encoded}`))
       .catch(() => 
