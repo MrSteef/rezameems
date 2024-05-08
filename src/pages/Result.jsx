@@ -6,22 +6,6 @@ const Result = () => {
   let { result } = useParams()
   let data = JSON.parse(atob(result))
 
-  // send the result to the api
-  const myHeaders = new Headers();
-  myHeaders.append("Content-Type", "application/json");
-
-  const requestOptions = {
-    method: "POST",
-    headers: myHeaders,
-    body: JSON.stringify(result),
-    redirect: "follow"
-  };
-
-  fetch("rezameems.cloudflare-cef.workers.dev", requestOptions)
-    .then((response) => response.text())
-    .then((result) => console.log(result))
-    .catch((error) => console.error(error));
-
   // render the page
   let winner = data.s.find(s => s.score === Math.max(...data.s.map(s=>s.score))).party
   let replay = []

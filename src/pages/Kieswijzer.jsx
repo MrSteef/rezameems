@@ -78,7 +78,24 @@ const Kieswijzer = () => {
     let result = {t: Date.now(), q: questionHistory, a: answerHistory, s: scores}
     let encoded = btoa(JSON.stringify(result))
     // save results
-    navigate(`/kieswijzer/resultaat/${encoded}`)
+    
+    // send the result to the api
+    const myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    const requestOptions = {
+      method: "POST",
+      headers: myHeaders,
+      body: JSON.stringify(result),
+      redirect: "follow"
+    };
+
+    fetch("api.rezameems.nl", requestOptions)
+      .then(() => 
+        navigate(`/kieswijzer/resultaat/${encoded}`))
+      .catch(() => 
+        navigate(`/kieswijzer/resultaat/${encoded}`)
+      );
   }
 
   if (answerHistory.length >= quizLength) {
