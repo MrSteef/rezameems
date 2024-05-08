@@ -90,12 +90,9 @@ const Kieswijzer = () => {
       redirect: "follow"
     };
 
-    fetch("https://api.rezameems.nl", requestOptions)
-      .then(() => 
-        navigate(`/kieswijzer/resultaat/${encoded}`))
-      .catch(() => 
-        navigate(`/kieswijzer/resultaat/${encoded}`)
-      );
+    fetch("https://api.rezameems.nl", requestOptions)    
+      
+    navigate(`/kieswijzer/resultaat/${encoded}`)
   }
 
   if (answerHistory.length >= quizLength) {
